@@ -1,0 +1,2400 @@
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;R
+Jack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
+Koichi;Test test test test;2;RJack;Hey what's up;0;R
+Koichi;Nothing much man;0;L
+Jack;Oh that's cool;1;R
+Koichi;Test test test test;2;R
+Jack;This is a test;2;L
