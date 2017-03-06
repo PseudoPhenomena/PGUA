@@ -23,6 +23,6 @@ public class Scenehandler : MonoBehaviour {
 
 	public void StartScene()
 	{
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene("World Map");
 	}
 }
