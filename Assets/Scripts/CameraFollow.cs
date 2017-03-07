@@ -21,6 +21,8 @@ public class CameraFollow : MonoBehaviour {
 	//Variable to adjust the x offset of the camera.
 	public int xOffset;
 
+	public Conductor conductor;
+
 	//Midpoint between them that the camera stays focused on
 	private float midpoint;
 
@@ -39,6 +41,12 @@ public class CameraFollow : MonoBehaviour {
 
 	//The filepath of the beatmap
 	string fileName;
+
+	//Stuff for writing to the beatmap
+	private float lastBeat;
+	private float crotchet;
+	private float bpm = 127;
+	private int beat;
 	// Use this for initialization
 	void Start() {
 		Vector3 toAdd = new Vector3(xOffset, 0, 0);
@@ -46,46 +54,25 @@ public class CameraFollow : MonoBehaviour {
 		audio = GetComponent<AudioSource>();
 		midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2).y;
 		beatMap = new ArrayList();
-		fileName = "C:\\Users\\Hayden\\Documents\\Waifu Runner 3D\\Assets\\" + audio.clip.name + "beatmap.txt";
+		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "beatmap.txt";
+		Debug.Log("Filepath: " + fileName);
+
+		//Stuff for writing to the beatmap
+		lastBeat = 0;
+		crotchet = 60 / bpm;
+		beat = 0;
 	}
 	//Update is called once per frame
 	void Update()
 	{
-		//If space is pressed, swap the players
+		if(conductor.songPosition > lastBeat + crotchet)
+		{
+			Debug.Log("Beat");
+			
+			beat++;
+			lastBeat += crotchet;
 
-		if (Input.GetButtonDown("Switch"))
-		{
-			Debug.Log("Swap: " + audio.time);
-			beatMap.Add("Swap: " + audio.time);
-		}
-
-		//JumpCode
-		//Move it up when the jump button is pressed.
-		if (Input.GetButtonDown("JumpTop"))
-		{
-			Debug.Log("JumpTop: " + audio.time);
-			beatMap.Add("JumpTop: " + audio.time);
-		}
-		//Move it back when it's released
-		if (Input.GetButtonUp("JumpTop"))
-		{
-			Debug.Log("JumpTop Release: " + audio.time);
-			beatMap.Add("JumpTop Release: " + audio.time);
-		}
-
-
-		//JumpCode
-		//Move it up when the jump button is pressed
-		if (Input.GetButtonDown("JumpBottom"))
-		{
-			Debug.Log("JumpBot: " + audio.time);
-			beatMap.Add("JumpBot: " + audio.time);
-		}
-		//Move it back when it's released
-		if (Input.GetButtonUp("JumpBottom"))
-		{
-			Debug.Log("JumpBot Release: " + audio.time);
-			beatMap.Add("JumpBot Release: " + audio.time);
+			beatMap.Add("Beat: " + conductor.songPosition + " Pos: " + toFollow1.transform.position.x + "Beat #" + beat);
 		}
 	}
 	// LateUpdate is called once after each frame
@@ -93,9 +80,9 @@ public class CameraFollow : MonoBehaviour {
 		Vector3 midline = new Vector3(toFollow1.transform.position.x, midpoint, toFollow1.transform.position.z);
 		transform.position = midline + offset;
 
-		if (!audio.isPlaying)
+		if (!audio.isPlaying && !File.Exists(fileName))
 		{
-			//Code to write button presses to file
+			//Code to to file
 			using (StreamWriter sw = new StreamWriter(fileName))
 			{
 				Debug.Log("Writing to file");

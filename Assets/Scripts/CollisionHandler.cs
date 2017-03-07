@@ -9,13 +9,13 @@ public class CollisionHandler : MonoBehaviour {
 	public bool isBlack;
 	//This object is the panel we want to send the procs for character updates too.
 	//public GameObject panel;
-
+	
 	//Object that keeps track of Score
 	public GameObject ScoreKeeperObj;
-	private ScoreKeeper ScoreKeeperScript;//Deturmined at runtime
+	private ScoreKeeper ScoreKeeperScript;//Determined at runtime
 
-	//This is the dialogue manager we will do it with.
-	private DialogueManager dm;
+	////This is the dialogue manager we will do it with.
+	//private DialogueManager dm;
 
 	// Use this for initialization
 	void Start () {
@@ -25,17 +25,17 @@ public class CollisionHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	void OnTriggerEnter(Collider col)
 	{
+		
 		//If the object is black and the pickup is white
+		//MISMATCH
 		if (isBlack && col.gameObject.tag == "WhiteEnemy")
 		{
-			//Output interruption to chat log.
-			//dm.ParseInterruption();
-			//This constitutes an interruption, so we need to change the character panels image
+			//This is a mismatch, so we need to change the character panels image
 
 			//decrease score
 			ScoreKeeperScript.OtherColorHit();
@@ -44,18 +44,18 @@ public class CollisionHandler : MonoBehaviour {
 			Destroy(col.gameObject);
 		}
 		//if the object is black and the pickup is black
+		//MATCH
 		else if (isBlack && col.gameObject.tag == "BlackEnemy")
 		{
-
 			//Increase score
 			ScoreKeeperScript.SameColorHit();
 			//Destroy pickup
 			Destroy(col.gameObject);
 		}
 		//If the object is white and the pickup is black
+		//MISMATCH
 		else if (!isBlack && col.gameObject.tag == "BlackEnemy")
 		{
-
 			//Change character pose.
 
 			//Decrease Score
@@ -65,6 +65,7 @@ public class CollisionHandler : MonoBehaviour {
 			Destroy(col.gameObject);
 		}
 		//If the object is white and the pickup is white
+		//MATCH
 		else if (!isBlack && col.gameObject.tag == "WhiteEnemy")
 		{
 			//Increase score

@@ -11,10 +11,8 @@ public class SpawnEvent : MonoBehaviour {
 	{
 		public Vector3 spawnPoint;
 		public string color;
-		public float time;
 		public string side;
-
-		//public double x;////the y coordinate is determined by which side it's on, the z is constant
+		public string high;//This determines if it's high or low
 	}
 
 	//This is the object the music is playing from.
@@ -30,8 +28,7 @@ public class SpawnEvent : MonoBehaviour {
 
 	private float xSpot;
 	//These are the y coordinates of the spawn point.
-	private int kicks;
-
+	
 	//The TOP and BOTTOM spawn points for obstacles.
 	private float TOP = 3.34f;
 	private float BOT = -2.2f;
@@ -48,10 +45,14 @@ public class SpawnEvent : MonoBehaviour {
 	void Start () {
 		audioBeat.GetComponent<BeatDetection>().CallBackFunction = MyCallbackEventHandler;
 		xSpot = characterReference.transform.position.x + 10;
-		kicks = 0;
 
 		loadXMLFromAssets();
 		readXml();
+
+		foreach (BeatObstacle el in beatMap)
+		{
+			SpawnEnemy();
+		}
 	}
 
 
@@ -63,17 +64,25 @@ public class SpawnEvent : MonoBehaviour {
 			BeatObstacle tempObstacle = new BeatObstacle();
 			tempObstacle.color = node.SelectSingleNode("color").InnerText;
 			tempObstacle.side = node.SelectSingleNode("side").InnerText;
-			tempObstacle.time = float.Parse(node.SelectSingleNode("time").InnerText);
+			tempObstacle.high = node.SelectSingleNode("high").InnerText;
 
 			x = float.Parse(node.SelectSingleNode("x").InnerText);
 
-			if (tempObstacle.side.Equals("top"))
+			if (tempObstacle.side.Equals("top") && tempObstacle.high.Equals("false"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, TOP, 0.87f); 
 			}
-			else if (tempObstacle.side.Equals("bot"))
+			else if (tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("false"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, BOT, 0.87f);
+			}
+			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("true"))
+			{
+				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
+			}
+			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("true"))
+			{
+				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
 			}
 
 
@@ -88,7 +97,7 @@ public class SpawnEvent : MonoBehaviour {
 
 	private void displayData(BeatObstacle tempObstacle)
 	{
-		Debug.Log(tempObstacle.color + "\n" + tempObstacle.side + "\n" + tempObstacle.spawnPoint + "\n" + tempObstacle.time);
+		//Debug.Log(tempObstacle.color + "\n" + tempObstacle.side + "\n" + tempObstacle.spawnPoint + "\n" + tempObstacle.time);
 	}
 
 	/// <summary>
@@ -128,33 +137,38 @@ public class SpawnEvent : MonoBehaviour {
 
 	void Awake()
 	{
-		fileName = "DemoXmlFile.xml";
+		//TODO: Make loading the xml maps dynamic
+		fileName = "YouBelongBeatMap.xml";
 		beatMap = new List<BeatObstacle>();
-	}
 
+	}
+	/// <summary>
+	/// TODO: This does nothing for now. But I'm leaving it in at the moment as an example
+	/// </summary>
+	/// <param name="eventinfo"></param>
 	public void MyCallbackEventHandler(BeatDetection.EventInfo eventinfo)
 	{
-		switch (eventinfo.messageInfo)
-		{
-			case BeatDetection.EventType.Energy:
-				//Debug.Log("Energy Detected!");
-				SpawnEnemy(eventinfo);
-				break;
-			case BeatDetection.EventType.HitHat:
-				//Debug.Log("HiHat Detected!");
-				//SpawnEnemy();
-				break;
-			case BeatDetection.EventType.Kick:
-				//Debug.Log("Kick detected");
-				SpawnEnemy(eventinfo);
-				break;
-			case BeatDetection.EventType.Snare:
-				//SnareCode here
-				//Debug.Log("Snare detected!");
-				//StartCoroutine(showText(snare, gsnare));
-				//SpawnEnemy();
-				break;
-		}
+		//switch (eventinfo.messageInfo)
+		//{
+		//	case BeatDetection.EventType.Energy:
+		//		//Debug.Log("Energy Detected!");
+		//		SpawnEnemy();
+		//		break;
+		//	case BeatDetection.EventType.HitHat:
+		//		//Debug.Log("HiHat Detected!");
+		//		SpawnEnemy();
+		//		break;
+		//	case BeatDetection.EventType.Kick:
+		//		//Debug.Log("Kick detected");
+		//		SpawnEnemy();
+		//		break;
+		//	case BeatDetection.EventType.Snare:
+		//		//SnareCode here
+		//		//Debug.Log("Snare detected!");
+		//		//StartCoroutine(showText(snare, gsnare));
+		//		SpawnEnemy();
+		//		break;
+		//}
 	}
 
 	/// <summary>
@@ -165,7 +179,7 @@ public class SpawnEvent : MonoBehaviour {
 	/// the drums spawn the white ones. This is likely to change, since I see it
 	/// causing problems later on.
 	/// </summary>
-	private void SpawnEnemy(BeatDetection.EventInfo eInfo)
+	private void SpawnEnemy()
 	{
 		if (en.MoveNext())
 		{
@@ -176,33 +190,28 @@ public class SpawnEvent : MonoBehaviour {
 
 			spawn = next.spawnPoint;
 			
-			switch (eInfo.messageInfo)
+			
+			if (next.color.Equals("black"))
 			{
-				case BeatDetection.EventType.Kick:
-					if (next.color.Equals("black"))
-					{
-						GameObject obj = Instantiate(blackObs);
-						obj.GetComponent<BlackObs>().Instantiate(spawn, next.time);
-					}
-					else if (next.color.Equals("white"))
-					{
-						GameObject obj = Instantiate(whiteObs);
-						obj.GetComponent<WhiteObs>().Instantiate(spawn, next.time);
-					}
-					break;
-				case BeatDetection.EventType.Energy:
-					if (next.color.Equals("black"))
-					{
-						GameObject obj = Instantiate(blackObs);
-						obj.GetComponent<BlackObs>().Instantiate(spawn, next.time);
-					}
-					else if (next.color.Equals("white"))
-					{
-						GameObject obj = Instantiate(whiteObs);
-						obj.GetComponent<WhiteObs>().Instantiate(spawn, next.time);
-					}
-					break;
-			} 
+				GameObject obj = Instantiate(blackObs);
+				obj.GetComponent<BlackObs>().Instantiate(spawn);
+			}
+			else if (next.color.Equals("white"))
+			{
+				GameObject obj = Instantiate(whiteObs);
+				obj.GetComponent<WhiteObs>().Instantiate(spawn);
+			}
+			if (next.color.Equals("black"))
+			{
+				GameObject obj = Instantiate(blackObs);
+				obj.GetComponent<BlackObs>().Instantiate(spawn);
+			}
+			else if (next.color.Equals("white"))
+			{
+				GameObject obj = Instantiate(whiteObs);
+				obj.GetComponent<WhiteObs>().Instantiate(spawn);
+			}
+			
 		}
 	}
 }

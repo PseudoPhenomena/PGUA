@@ -9,9 +9,8 @@ public class WhiteObs : MonoBehaviour {
 	/// I've called it instantiate because what it does is it takes an instantiated
 	/// object and moves it to the location determined in the other script.
 	/// </summary>
-	public void Instantiate(Vector3 spawn, float time)
+	public void Instantiate(Vector3 spawn)
 	{
 		gameObject.transform.position = spawn;
-		this.time = time;
 	}
 }
