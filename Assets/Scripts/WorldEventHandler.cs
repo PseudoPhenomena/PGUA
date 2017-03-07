@@ -8,10 +8,11 @@ public class WorldEventHandler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //This will eventually check where the player is
+		//This will eventually check where the player is
 		if (Input.GetButtonDown("Select"))
-        {
-            SceneManager.LoadScene("Playground");
-        }
+		{
+			Debug.Log("Loading Scene");
+			SceneManager.LoadScene("Playground");
+		}
 	}
 }

@@ -40,7 +40,7 @@ public class DialogueParser : MonoBehaviour {
 		///Something along the format of CharacterName + DateNumber + .XML if we
 		///choose too.
 		///For now though the format for a .txt file will do.
-		string file = "Assets/TestScript";
+		string file = "Assets/Resources/TestScript";
 		Scene current = SceneManager.GetActiveScene();
 		string sceneNum = current.name;
 		sceneNum = Regex.Replace(sceneNum, "[^0-9]", "");
@@ -49,52 +49,9 @@ public class DialogueParser : MonoBehaviour {
 
 		lines = new List<DialogueLine>();
 		LoadDialogue(file);
-
-		///After loading the dialogue file, load up the interruptions file. This
-		///method will instead load every interuption into a dictionary or list,
-		///so we can print a random interruption each time.
-		string interruptFile = "Assets/Interruptions";
-		interruptFile += sceneNum;
-		interruptFile += ".txt";
-		interruptions = new List<DialogueLine>();
-		LoadInterruptions(interruptFile);
 	}
 
-	private void LoadInterruptions(string filename)
-	{
-		string line;
-		StreamReader r = new StreamReader(filename);
-
-		using (r)
-		{
-			do
-			{
-				line = r.ReadLine();
-				if (line != null)
-				{
-					string[] lineData = line.Split(';');
-					if (lineData[0] == "Player")
-					{
-						DialogueLine lineEntry = new DialogueLine(lineData[0], "", 0, "");
-						lineEntry.options = new string[lineData.Length - 1];
-
-						for (int i = 1; i < lineData.Length; i++)
-						{
-							lineEntry.options[i - 1] = lineData[i];
-						}
-						interruptions.Add(lineEntry);
-					}
-					else
-					{
-						DialogueLine lineEntry = new DialogueLine(lineData[0], lineData[1], int.Parse(lineData[2]), lineData[3]);
-						interruptions.Add(lineEntry);
-					}
-				}
-			}
-			while (line != null);
-			r.Close();
-		}
-	}
+	
 
 	private void LoadDialogue(string filename)
 	{
@@ -146,7 +103,6 @@ public class DialogueParser : MonoBehaviour {
 		if (lineNumber < lines.Count)
 		{
 			return lines[lineNumber].name;
-			Debug.Log(lines[lineNumber].name);
 		}
 		return "";
 	}
@@ -177,25 +133,7 @@ public class DialogueParser : MonoBehaviour {
 		}
 		return new string[0];
 	}
-
-	/// <summary>
-	/// When it comes to interruptions we only really care about the content.This
-	/// means that the implementation of them will have to change some. Which isn't
-	/// much of a problem.
-	/// 
-	/// TODO: Change implementation of interruptions
-	/// </summary>
-	/// <param name="linenumber">the line read from the interruptions list</param>
-	/// <returns></returns>
-	public string getInterruption(int linenumber)
-	{
-		if (linenumber < interruptions.Count)
-		{
-			return interruptions[linenumber].content;
-		}
-		return "";
-	}
-
+		
 	// Update is called once per frame
 	void Update () {
 		
