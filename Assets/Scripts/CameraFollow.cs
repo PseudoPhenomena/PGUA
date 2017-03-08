@@ -80,19 +80,22 @@ public class CameraFollow : MonoBehaviour {
 		Vector3 midline = new Vector3(toFollow1.transform.position.x, midpoint, toFollow1.transform.position.z);
 		transform.position = midline + offset;
 
-		if (!audio.isPlaying && !File.Exists(fileName))
+		if (!audio.isPlaying)
 		{
 			//Code to to file
-			using (StreamWriter sw = new StreamWriter(fileName))
+			if (!File.Exists(fileName))
 			{
-				Debug.Log("Writing to file");
-				foreach (string el in beatMap)
+				using (StreamWriter sw = new StreamWriter(fileName))
 				{
-					//print the string to a text file
+					Debug.Log("Writing to file");
+					foreach (string el in beatMap)
+					{
+						//print the string to a text file
 
-					sw.WriteLine(el);
+						sw.WriteLine(el);
 
-				}
+					}
+				} 
 			}
 			//go to menu
 			SceneManager.LoadScene(0);

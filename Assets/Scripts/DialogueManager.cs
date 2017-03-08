@@ -139,11 +139,11 @@ public class DialogueManager : MonoBehaviour
     {
         if (position == "L")
         {
-            spriteObj.transform.position = new Vector3(-6, 0);
+            spriteObj.transform.position = new Vector3(-6, .85f);
         }
         else if (position == "R")
         {
-            spriteObj.transform.position = new Vector3(6, 0);
+            spriteObj.transform.position = new Vector3(6, .85f);
         }
         spriteObj.transform.position = new Vector3(spriteObj.transform.position.x, spriteObj.transform.position.y, 0);
     }

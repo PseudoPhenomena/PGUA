@@ -9,10 +9,10 @@ public class WorldEventHandler : MonoBehaviour {
 	void Update () {
 
 		//This will eventually check where the player is
-		if (Input.GetButtonDown("Select"))
+		if (Input.GetButtonDown("Submit"))
 		{
 			Debug.Log("Loading Scene");
-			SceneManager.LoadScene("Playground");
+			SceneManager.LoadScene(2);
 		}
 	}
 }
