@@ -67,11 +67,7 @@ public class CameraFollow : MonoBehaviour {
 	{
 		if(conductor.songPosition > lastBeat + crotchet)
 		{
-<<<<<<< HEAD
 			//Debug.Log("Beat");
-=======
-			Debug.Log("Beat: " + beat);
->>>>>>> 3efefc8a4f74cd26e2d26c19b12e7d05b7f0a349
 			
 			beat++;
 			lastBeat += crotchet;
