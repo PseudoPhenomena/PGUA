@@ -78,11 +78,11 @@ public class SpawnEvent : MonoBehaviour {
 			}
 			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("true"))
 			{
-				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
+				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
 			}
 			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("true"))
 			{
-				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
+				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
 			}
 
 

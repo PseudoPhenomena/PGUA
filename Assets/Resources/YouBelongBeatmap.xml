@@ -131,7 +131,7 @@
 	</obstacle>
 	<obstacle>
 		<color>white</color>
-		<high>true</high>
+		<high>false</high>
 		<side>bot</side>
 		<x>46.43</x>
 	</obstacle>
@@ -143,7 +143,7 @@
 	</obstacle>
 	<obstacle>
 		<color>white</color>
-		<high>true</high>
+		<high>false</high>
 		<side>bot</side>
 		<x>52.096</x>
 	</obstacle>
@@ -189,7 +189,7 @@
 	</obstacle>
 	<obstacle>
 		<color>white</color>
-		<high>true</high>
+		<high>false</high>
 		<side>bot</side>
 		<x>63.38</x>
 	</obstacle>
@@ -214,7 +214,7 @@
 	</obstacle>
 	<obstacle>
 		<color>black</color>
-		<high>true</high>
+		<high>false</high>
 		<side>top</side>
 		<x>74.71</x>
 	</obstacle>
@@ -238,19 +238,7 @@
 		<side>bot</side>
 		<x>80.27</x>
 	</obstacle>
-	<!--Beat 34, 34.5 double beat-->
-	<obstacle>
-		<color>black</color>
-		<high>true</high>
-		<side>top</side>
-		<x>83.31</x>
-	</obstacle>
-	<obstacle>
-		<color>white</color>
-		<high>true</high>
-		<side>top</side>
-		<x>84.66</x>
-	</obstacle>
+	<!--Beat 34 blank-->
 	<!--Beat 35 pair-->
 	<obstacle>
 		<color>white</color>
@@ -313,7 +301,7 @@
 	</obstacle>
 	<obstacle>
 		<color>white</color>
-		<high>true</high>
+		<high>false</high>
 		<side>bot</side>
 		<x>103.14</x>
 	</obstacle>
@@ -386,21 +374,9 @@
 		<side>top</side>
 		<x>134.283</x>
 	</obstacle>
+	<!--Beat 55 pair-->
 	<obstacle>
-		<color>black</color>
-		<high>true</high>
-		<side>top</side>
-		<x>137.11</x>
-	</obstacle>
-	<obstacle>
-		<color>black</color>
-		<high>false</high>
-		<side>top</side>
-		<x>134.05</x>
-	</obstacle>
-	<!--Beat 55 pair, double, one is a dodge-->
-	<obstacle>
-		<color>black</color>
+		<color>white</color>
 		<high>false</high>
 		<side>top</side>
 		<x>137.114</x>
@@ -1233,17 +1209,17 @@
 		<side>bot</side>
 		<x>420.4847</x>
 	</obstacle>
-	<!--Beat 157 pair, both up-->
+	<!--Beat 157 pair-->
 	<obstacle>
 		<color>white</color>
-		<high>true</high>
-		<side>top</side>
+		<high>false</high>
+		<side>bot</side>
 		<x>423.3153</x>
 	</obstacle>
 	<obstacle>
 		<color>black</color>
 		<high>true</high>
-		<side>bot</side>
+		<side>top</side>
 		<x>423.3153</x>
 	</obstacle>
 	<!--Beat 158 pair-->
@@ -1702,12 +1678,6 @@
 	<obstacle>
 		<color>black</color>
 		<high>true</high>
-		<side>top</side>
-		<x>610.5607</x>
-	</obstacle>
-	<obstacle>
-		<color>black</color>
-		<high>false</high>
 		<side>top</side>
 		<x>610.5607</x>
 	</obstacle>
@@ -2262,14 +2232,14 @@
 	</obstacle>
 	<!--Beat 312 pair-->
 	<obstacle>
-		<color>black</color>
+		<color>white</color>
 		<high>true</high>
 		<side>top</side>
 		<x>811.7074</x>
 	</obstacle>
 	<obstacle>
-		<color>white</color>
-		<high>true</high>
+		<color>black</color>
+		<high>false</high>
 		<side>bot</side>
 		<x>811.7074</x>
 	</obstacle>
@@ -2515,13 +2485,19 @@
 	<obstacle>
 		<color>black</color>
 		<high>false</high>
-		<side>bot</side>
+		<side>top</side>
 		<x>919.4746</x>
 	</obstacle>
 	<!--Beat 351-->
 	<obstacle>
 		<color>black</color>
 		<high>true</high>
+		<side>top</side>
+		<x>922.3052</x>
+	</obstacle>
+  <obstacle>
+		<color>white</color>
+		<high>false</high>
 		<side>bot</side>
 		<x>922.3052</x>
 	</obstacle>

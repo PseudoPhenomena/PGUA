@@ -1,0 +1,190 @@
+diff --git a/Assets/Resources/YouBelongBeatmap.xml b/Assets/Resources/YouBelongBeatmap.xml
+index 1f659a1..23b5aee 100644
+--- a/Assets/Resources/YouBelongBeatmap.xml
++++ b/Assets/Resources/YouBelongBeatmap.xml
+@@ -131,7 +131,7 @@
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>white</color>
+-		<high>true</high>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>46.43</x>
+ 	</obstacle>
+@@ -143,7 +143,7 @@
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>white</color>
+-		<high>true</high>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>52.096</x>
+ 	</obstacle>
+@@ -189,7 +189,7 @@
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>white</color>
+-		<high>true</high>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>63.38</x>
+ 	</obstacle>
+@@ -214,7 +214,7 @@
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>black</color>
+-		<high>true</high>
++		<high>false</high>
+ 		<side>top</side>
+ 		<x>74.71</x>
+ 	</obstacle>
+@@ -238,19 +238,7 @@
+ 		<side>bot</side>
+ 		<x>80.27</x>
+ 	</obstacle>
+-	<!--Beat 34, 34.5 double beat-->
+-	<obstacle>
+-		<color>black</color>
+-		<high>true</high>
+-		<side>top</side>
+-		<x>83.31</x>
+-	</obstacle>
+-	<obstacle>
+-		<color>white</color>
+-		<high>true</high>
+-		<side>top</side>
+-		<x>84.66</x>
+-	</obstacle>
++	<!--Beat 34 blank-->
+ 	<!--Beat 35 pair-->
+ 	<obstacle>
+ 		<color>white</color>
+@@ -313,7 +301,7 @@
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>white</color>
+-		<high>true</high>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>103.14</x>
+ 	</obstacle>
+@@ -386,21 +374,9 @@
+ 		<side>top</side>
+ 		<x>134.283</x>
+ 	</obstacle>
++	<!--Beat 55 pair-->
+ 	<obstacle>
+-		<color>black</color>
+-		<high>true</high>
+-		<side>top</side>
+-		<x>137.11</x>
+-	</obstacle>
+-	<obstacle>
+-		<color>black</color>
+-		<high>false</high>
+-		<side>top</side>
+-		<x>134.05</x>
+-	</obstacle>
+-	<!--Beat 55 pair, double, one is a dodge-->
+-	<obstacle>
+-		<color>black</color>
++		<color>white</color>
+ 		<high>false</high>
+ 		<side>top</side>
+ 		<x>137.114</x>
+@@ -1233,17 +1209,17 @@
+ 		<side>bot</side>
+ 		<x>420.4847</x>
+ 	</obstacle>
+-	<!--Beat 157 pair, both up-->
++	<!--Beat 157 pair-->
+ 	<obstacle>
+ 		<color>white</color>
+-		<high>true</high>
+-		<side>top</side>
++		<high>false</high>
++		<side>bot</side>
+ 		<x>423.3153</x>
+ 	</obstacle>
+ 	<obstacle>
+ 		<color>black</color>
+ 		<high>true</high>
+-		<side>bot</side>
++		<side>top</side>
+ 		<x>423.3153</x>
+ 	</obstacle>
+ 	<!--Beat 158 pair-->
+@@ -1705,12 +1681,6 @@
+ 		<side>top</side>
+ 		<x>610.5607</x>
+ 	</obstacle>
+-	<obstacle>
+-		<color>black</color>
+-		<high>false</high>
+-		<side>top</side>
+-		<x>610.5607</x>
+-	</obstacle>
+ 	<!--Beat 238-->
+ 	<obstacle>
+ 		<color>white</color>
+@@ -2262,14 +2232,14 @@
+ 	</obstacle>
+ 	<!--Beat 312 pair-->
+ 	<obstacle>
+-		<color>black</color>
++		<color>white</color>
+ 		<high>true</high>
+ 		<side>top</side>
+ 		<x>811.7074</x>
+ 	</obstacle>
+ 	<obstacle>
+-		<color>white</color>
+-		<high>true</high>
++		<color>black</color>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>811.7074</x>
+ 	</obstacle>
+@@ -2515,13 +2485,19 @@
+ 	<obstacle>
+ 		<color>black</color>
+ 		<high>false</high>
+-		<side>bot</side>
++		<side>top</side>
+ 		<x>919.4746</x>
+ 	</obstacle>
+ 	<!--Beat 351-->
+ 	<obstacle>
+ 		<color>black</color>
+ 		<high>true</high>
++		<side>top</side>
++		<x>922.3052</x>
++	</obstacle>
++  <obstacle>
++		<color>white</color>
++		<high>false</high>
+ 		<side>bot</side>
+ 		<x>922.3052</x>
+ 	</obstacle>
+diff --git a/Assets/Scenes/Conversation.unity b/Assets/Scenes/Conversation.unity
+index 7cb9e24..a4897a7 100644
+Binary files a/Assets/Scenes/Conversation.unity and b/Assets/Scenes/Conversation.unity differ
+* Unmerged path Assets/Scripts/CameraFollow.cs
+diff --git a/Assets/Scripts/SpawnEvent.cs b/Assets/Scripts/SpawnEvent.cs
+index 28428a8..9220928 100755
+--- a/Assets/Scripts/SpawnEvent.cs
++++ b/Assets/Scripts/SpawnEvent.cs
+@@ -78,11 +78,11 @@ public class SpawnEvent : MonoBehaviour {
+ 			}
+ 			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("true"))
+ 			{
+-				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
++				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
+ 			}
+ 			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("true"))
+ 			{
+-				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
++				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
+ 			}
+ 
+ 
