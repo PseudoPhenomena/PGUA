@@ -188,10 +188,9 @@ public class MapManager : MonoBehaviour {
 				if (line != null)
 				{
 					string[] lineData = line.Split(';');
-					//Spawn columns on Content. Every 29, add a label for the row.
+					//Spawn columns on Content.
 					GameObject newItem = Instantiate(col, spawnPoint, Quaternion.identity) as GameObject;
 					newItem.transform.SetParent(Content.transform, false);
-                    
 					/*It's important to note here that the txt file is split each line on the ;.
 					The one on the left of the ; is the position, the one on the right is the 
 					beat number*/
