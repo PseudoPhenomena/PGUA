@@ -28,7 +28,7 @@ public class PauseMenuScript : MonoBehaviour {
         }
         if (!paused)
         {
-            PausedUI.SetActive(false);
+            //PausedUI.SetActive(false);
             Time.timeScale = 1;
         }
     }

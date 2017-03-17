@@ -67,12 +67,12 @@ public class CameraFollow : MonoBehaviour {
 	{
 		if(conductor.songPosition > lastBeat + crotchet)
 		{
-			Debug.Log("Beat");
+			//Debug.Log("Beat");
 			
 			beat++;
 			lastBeat += crotchet;
 
-			beatMap.Add("Beat: " + conductor.songPosition + " Pos: " + toFollow1.transform.position.x + "Beat #" + beat);
+			beatMap.Add(toFollow1.transform.position.x + ";" + beat);
 		}
 	}
 	// LateUpdate is called once after each frame

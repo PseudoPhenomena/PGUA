@@ -97,7 +97,7 @@ public class SpawnEvent : MonoBehaviour {
 
 	private void displayData(BeatObstacle tempObstacle)
 	{
-		//Debug.Log(tempObstacle.color + "\n" + tempObstacle.side + "\n" + tempObstacle.spawnPoint + "\n" + tempObstacle.time);
+		Debug.Log(tempObstacle.color + "\n" + tempObstacle.side + "\n" + tempObstacle.spawnPoint + "\n");
 	}
 
 	/// <summary>
@@ -138,7 +138,7 @@ public class SpawnEvent : MonoBehaviour {
 	void Awake()
 	{
 		//TODO: Make loading the xml maps dynamic
-		fileName = "YouBelongBeatMap.xml";
+		fileName = "hjk";
 		beatMap = new List<BeatObstacle>();
 
 	}
@@ -189,18 +189,8 @@ public class SpawnEvent : MonoBehaviour {
 			BeatObstacle next = en.Current;
 
 			spawn = next.spawnPoint;
+			Debug.Log(spawn);
 			
-			
-			if (next.color.Equals("black"))
-			{
-				GameObject obj = Instantiate(blackObs);
-				obj.GetComponent<BlackObs>().Instantiate(spawn);
-			}
-			else if (next.color.Equals("white"))
-			{
-				GameObject obj = Instantiate(whiteObs);
-				obj.GetComponent<WhiteObs>().Instantiate(spawn);
-			}
 			if (next.color.Equals("black"))
 			{
 				GameObject obj = Instantiate(blackObs);
