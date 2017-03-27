@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Beatmap>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>0.5414963</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>3.43808</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>6.268749</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>6.268749</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>9.099411</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>11.94476</x>
+	</obstacle>
+</Beatmap>
