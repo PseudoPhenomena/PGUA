@@ -126,7 +126,7 @@ public class SpawnEvent : MonoBehaviour {
 		#elif UNITY_IPHONE
 			return GetiPhoneDocumentsPath()+"/"+fileName;
 		#else
-			return Application.dataPath +"/"+ fileName;
+			return Application.dataPath + "/Resources/" + fileName;
 		#endif
 	}
 

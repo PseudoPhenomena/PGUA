@@ -23,6 +23,10 @@ public class MapManager : MonoBehaviour {
 	//Where we store the column prefab for spawning
 	public GameObject col;
 
+	//XmlDoc object should help with loading
+	private XmlDocument xmlDoc;
+	private TextAsset textXml;
+	private string fileName;
 	// Use this for initialization
 	void Start () {
 		BeatMap = new Dictionary<int, Column>();
@@ -67,6 +71,8 @@ public class MapManager : MonoBehaviour {
 		{
 			writer.WriteStartDocument();
 			writer.WriteStartElement("Beatmap");
+			//write the number of beats as an attribute
+			writer.WriteAttributeString("beats", BeatMap.Count.ToString());
 			
 			//Then we're gonna iterate over the entire Beatmap
 			foreach(KeyValuePair<int, Column> entry in BeatMap)
@@ -136,6 +142,10 @@ public class MapManager : MonoBehaviour {
 						if (!color.Equals("Blank"))
 						{
 							writer.WriteStartElement("obstacle");
+							//Write the beat number as an attribute
+							writer.WriteAttributeString("beat", entry.Key.ToString());
+							//Also write down the image name. To check if it's a double later
+							writer.WriteAttributeString("double", currBtn.currImg.sprite.name);
 							writer.WriteElementString("side", side);
 							writer.WriteElementString("high", high);
 							writer.WriteElementString("color", color);
@@ -177,7 +187,6 @@ public class MapManager : MonoBehaviour {
 		Vector2 spawnPoint = new Vector3(-326f, 279f, 0f);
 		string filePath = Application.dataPath + "/Resources/Music/" + OpenNewBox.text + ".txt";
 		string line;
-        int i = 1;
 
 		StreamReader sr = new StreamReader(filePath);
 		using (sr)
@@ -205,5 +214,53 @@ public class MapManager : MonoBehaviour {
 			} while (line != null);
 
 		}
+	}
+
+	/// <summary>
+	/// So this method is a method that opens an existing map from a previously made
+	/// XML file.
+	/// </summary>
+	public void LoadExistingMap()
+	{
+
+		fileName = Application.dataPath + "/Resources/Music/" + OpenExistingBox.text + ".xml";
+
+		//First things first, clear the drawing board.
+		foreach (Transform child in Content)
+		{
+			Destroy(child);
+		}
+		//Then look at the loaded XML files beats attribute. That's how many columns need to be drawn.
+		loadXMLFromAssets();
+		//Reading XML starts here.
+
+		//Next read the objects in and write them to the proper column by beat.
+	}
+
+	private void loadXMLFromAssets()
+	{
+		xmlDoc = new XmlDocument();
+		if (System.IO.File.Exists(getPath()))
+		{
+			xmlDoc.LoadXml(System.IO.File.ReadAllText(getPath()));
+		}
+		else
+		{
+			textXml = (TextAsset)Resources.Load(fileName, typeof(TextAsset));
+			xmlDoc.LoadXml(textXml.text);
+		}
+	}
+
+	private string getPath()
+	{
+		#if UNITY_EDITOR
+				return Application.dataPath + "/Resources/" + fileName;
+		#elif UNITY_ANDROID
+					return Application.persistentDataPath+fileName;
+		#elif UNITY_IPHONE
+					return GetiPhoneDocumentsPath()+"/"+fileName;
+		#else
+					return Application.dataPath + "/Resources/" + fileName;
+		#endif
 	}
 }

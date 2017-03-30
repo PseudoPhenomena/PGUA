@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Beatmap>
-	<obstacle>
+<Beatmap beats ="380">
+	<obstacle beatNumber ="1">
 		<side>top</side>
 		<high>true</high>
 		<color>White</color>
