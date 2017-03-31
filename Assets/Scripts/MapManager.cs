@@ -16,8 +16,11 @@ public class MapManager : MonoBehaviour {
 	public InputField OpenExistingBox;
 	public InputField ExportBox;
 
-    //Sprites that the columns use.
-    public List<Sprite> sprites = new List<Sprite>();
+	//Sprites that the columns use.
+	public List<Sprite> sprites = new List<Sprite>();
+
+	//Button array
+	public Button[] colButtons = new Button[4];
 
 	//This dictionary is the map of each beat. Using a dictionary just cuz.
 	[HideInInspector]
@@ -227,7 +230,7 @@ public class MapManager : MonoBehaviour {
 	public void LoadExistingMap()
 	{
 
-		fileName = Application.dataPath + "/Resources/Music/" + OpenExistingBox.text + ".xml";
+		fileName = OpenExistingBox.text + ".xml";
 
 		//First things first, clear the drawing board.
 		foreach (Transform child in Content)
@@ -236,49 +239,83 @@ public class MapManager : MonoBehaviour {
 		}
 		//Then look at the loaded XML files beats attribute. That's how many columns need to be drawn.
 		loadXMLFromAssets();
-        //Reading XML starts here.
-        readXml();
+		//Reading XML starts here.
+		readXml();
 	}
 
-    private void readXml()
-    {
-        //First get the beats attribute from the top of the doc
-        XmlElement root = xmlDoc.DocumentElement;
-        int beats = int.Parse(root.Attributes["beats"].Value);
-        //Then we create a dictionary of that size.
-        //TODO: Make sure that this works, if it doesn't then the alternative
-        //is to create and insert all the columns as default columns.
-        BeatMap = new Dictionary<int, Column>(beats);
-
-        foreach(XmlElement node in xmlDoc.SelectNodes("//obstacle"))
-        {
-            //Only add the obstacle if it has attributes
-            if (node.HasAttributes)
-            {
-                //The beat number attribute
-                string beatNumber = node.Attributes[0].Value;
-                string sprite = node.Attributes[1].Value;
-                string high = node.SelectSingleNode("high").InnerText;
-                string side = node.SelectSingleNode("side").InnerText;
-
-                //Column tempCol = new Column();
-                ////Here are the easy ones to get. The beat number...
-                //tempCol.BeatNumber = int.Parse(beatNumber);
-                ////And teh x-pos.
-                //tempCol.pos = float.Parse(node.SelectSingleNode("x").InnerText);
-
-                ///What needs to be done for each node:
-                ///1. Determine what button it is.
-                ///2. Get the beat number.
-                ///3. Go to that beat number in the dictionary and change the appropriate button
-                                
-
-            }
-        }
-    }
-
-    private void loadXMLFromAssets()
+	private void readXml()
 	{
+		//First get the beats attribute from the top of the doc
+		XmlElement root = xmlDoc.DocumentElement;
+		int beats = int.Parse(root.Attributes["beats"].Value);
+		int button = 0;
+		int spriteNumber = 0;
+		//Then we create a dictionary of that size.
+		BeatMap = new Dictionary<int, Column>();
+
+		//Populate the dictionary
+		for(int i = 1; i < 389; i++)
+		{
+			BeatMap.Add(i, new Column());
+		}
+
+		foreach(XmlElement node in xmlDoc.SelectNodes("//obstacle"))
+		{
+			//Only add the obstacle if it has attributes
+			if (node.HasAttributes)
+			{
+				//The beat number attribute
+				int beatNumber = int.Parse(node.Attributes[0].Value);
+				string sprite = node.Attributes[1].Value;
+				float pos = float.Parse(node.SelectSingleNode("x").InnerText);
+				string high = node.SelectSingleNode("high").InnerText;
+				string side = node.SelectSingleNode("side").InnerText;
+				string color = node.SelectSingleNode("color").InnerText;
+
+				//Column tempCol = new Column();
+				////Here are the easy ones to get. The beat number...
+				//tempCol.BeatNumber = int.Parse(beatNumber);
+				////And teh x-pos.
+				//tempCol.pos = float.Parse(node.SelectSingleNode("x").InnerText);
+
+				///What needs to be done for each node:
+				///1. Determine what button it is.
+				///2. Get the beat number.
+				///3. Go to that beat number in the dictionary and change the appropriate button
+
+				//Determine what button it is.
+				if (high.Equals("True") && side.Equals("top")) { button = 0; }
+				else if(high.Equals("False") && side.Equals("top")) { button = 1; }
+				else if(high.Equals("True") && side.Equals("bot")) { button = 2; }
+				else if(high.Equals("False") && side.Equals("bot")) { button = 3; }
+
+				//Determine what sprite to use.
+				if (sprite.Equals("Black")) { spriteNumber = 0; }
+				else if (sprite.Equals("White")) { spriteNumber = 3; }
+				else if (sprite.Equals("WhiteBlackDouble")) { spriteNumber = 4; }
+				else if (sprite.Equals("BlackWhiteDouble")) { spriteNumber = 1; }
+
+				//TODO: Now this is instantiating for each node it reads. it should go through the dictionary 
+				//and instantiate for every beat.
+				GameObject newItem = Instantiate(col, new Vector3(), Quaternion.identity) as GameObject;
+				newItem.transform.SetParent(Content.transform, false);
+
+				Column newCol = newItem.GetComponent<Column>();
+
+				//Go to beat number in dictionary and change the appropriate buttons and other info
+				
+				newCol.colButtons = colButtons;
+				newCol.colButtons[button].GetComponent<Image>().sprite = sprites[spriteNumber];
+				newCol.BeatNumber = beatNumber;
+				newCol.MM = this;
+				newCol.pos = pos;
+			}
+		}
+	}
+
+	private void loadXMLFromAssets()
+	{
+		Debug.Log(getPath());
 		xmlDoc = new XmlDocument();
 		if (System.IO.File.Exists(getPath()))
 		{
@@ -294,7 +331,7 @@ public class MapManager : MonoBehaviour {
 	private string getPath()
 	{
 		#if UNITY_EDITOR
-				return Application.dataPath + "/Resources/" + fileName;
+				return Application.dataPath + "/Resources/Music/" + fileName;
 		#elif UNITY_ANDROID
 					return Application.persistentDataPath+fileName;
 		#elif UNITY_IPHONE
