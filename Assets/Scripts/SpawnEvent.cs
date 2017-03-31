@@ -68,28 +68,27 @@ public class SpawnEvent : MonoBehaviour {
 
 			x = float.Parse(node.SelectSingleNode("x").InnerText);
 
-			if (tempObstacle.side.Equals("top") && tempObstacle.high.Equals("false"))
+			if (tempObstacle.side.Equals("top") && tempObstacle.high.Equals("False"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, TOP, 0.87f); 
 			}
-			else if (tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("false"))
+			else if (tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("False"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, BOT, 0.87f);
 			}
-			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("true"))
+			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("True"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, TOP + 2, 0.87f);
 			}
-			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("true"))
+			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("True"))
 			{
 				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
 			}
 
 
 			beatMap.Add(tempObstacle);
-
 			//A method call to a test method that displays the info in tempObstacle
-			displayData(tempObstacle);
+			//displayData(tempObstacle);
 		}
 
 		en = beatMap.GetEnumerator();
@@ -120,7 +119,7 @@ public class SpawnEvent : MonoBehaviour {
 	private string getPath()
 	{
 		#if UNITY_EDITOR
-			return Application.dataPath + "/Resources/" + fileName;
+			return Application.dataPath + "/Resources/Music/" + fileName + ".xml";
 		#elif UNITY_ANDROID
 			return Application.persistentDataPath+fileName;
 		#elif UNITY_IPHONE
@@ -138,7 +137,7 @@ public class SpawnEvent : MonoBehaviour {
 	void Awake()
 	{
 		//TODO: Make loading the xml maps dynamic
-		fileName = "hjk";
+		fileName = "CHASU";
 		beatMap = new List<BeatObstacle>();
 
 	}
