@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
@@ -14,6 +15,9 @@ public class MapManager : MonoBehaviour {
 	public InputField OpenNewBox;
 	public InputField OpenExistingBox;
 	public InputField ExportBox;
+
+    //Sprites that the columns use.
+    public List<Sprite> sprites = new List<Sprite>();
 
 	//This dictionary is the map of each beat. Using a dictionary just cuz.
 	[HideInInspector]
@@ -232,12 +236,48 @@ public class MapManager : MonoBehaviour {
 		}
 		//Then look at the loaded XML files beats attribute. That's how many columns need to be drawn.
 		loadXMLFromAssets();
-		//Reading XML starts here.
-
-		//Next read the objects in and write them to the proper column by beat.
+        //Reading XML starts here.
+        readXml();
 	}
 
-	private void loadXMLFromAssets()
+    private void readXml()
+    {
+        //First get the beats attribute from the top of the doc
+        XmlElement root = xmlDoc.DocumentElement;
+        int beats = int.Parse(root.Attributes["beats"].Value);
+        //Then we create a dictionary of that size.
+        //TODO: Make sure that this works, if it doesn't then the alternative
+        //is to create and insert all the columns as default columns.
+        BeatMap = new Dictionary<int, Column>(beats);
+
+        foreach(XmlElement node in xmlDoc.SelectNodes("//obstacle"))
+        {
+            //Only add the obstacle if it has attributes
+            if (node.HasAttributes)
+            {
+                //The beat number attribute
+                string beatNumber = node.Attributes[0].Value;
+                string sprite = node.Attributes[1].Value;
+                string high = node.SelectSingleNode("high").InnerText;
+                string side = node.SelectSingleNode("side").InnerText;
+
+                //Column tempCol = new Column();
+                ////Here are the easy ones to get. The beat number...
+                //tempCol.BeatNumber = int.Parse(beatNumber);
+                ////And teh x-pos.
+                //tempCol.pos = float.Parse(node.SelectSingleNode("x").InnerText);
+
+                ///What needs to be done for each node:
+                ///1. Determine what button it is.
+                ///2. Get the beat number.
+                ///3. Go to that beat number in the dictionary and change the appropriate button
+                                
+
+            }
+        }
+    }
+
+    private void loadXMLFromAssets()
 	{
 		xmlDoc = new XmlDocument();
 		if (System.IO.File.Exists(getPath()))
