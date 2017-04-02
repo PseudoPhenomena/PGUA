@@ -45,7 +45,7 @@ public class CameraFollow : MonoBehaviour {
 	//Stuff for writing to the beatmap
 	private float lastBeat;
 	private float crotchet;
-	private float bpm = 127;
+	private float bpm;
 	private int beat;
 	// Use this for initialization
 	void Start() {
@@ -55,6 +55,7 @@ public class CameraFollow : MonoBehaviour {
 		midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2).y;
 		beatMap = new ArrayList();
 		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "beatmap.txt";
+        bpm = conductor.bpm;
 		Debug.Log("Filepath: " + fileName);
 
 		//Stuff for writing to the beatmap
@@ -67,9 +68,9 @@ public class CameraFollow : MonoBehaviour {
 	{
 		if(conductor.songPosition > lastBeat + crotchet)
 		{
-            Debug.Log("Beat");
+			Debug.Log("Beat");
 
-            beat++;
+			beat++;
 			lastBeat += crotchet;
 
 			beatMap.Add(toFollow1.transform.position.x + ";" + beat);
@@ -98,7 +99,7 @@ public class CameraFollow : MonoBehaviour {
 				} 
 			}
 			//go to menu
-			SceneManager.LoadScene(0);
+			//SceneManager.LoadScene(0);
 		}
 	}
 }

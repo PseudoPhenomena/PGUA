@@ -188,7 +188,7 @@ public class SpawnEvent : MonoBehaviour {
 			BeatObstacle next = en.Current;
 
 			spawn = next.spawnPoint;
-			Debug.Log(spawn);
+			//Debug.Log(spawn);
 			
 			if (next.color.Equals("black"))
 			{

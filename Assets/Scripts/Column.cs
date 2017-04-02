@@ -8,6 +8,8 @@ public class Column : MonoBehaviour {
 
 	//The four buttons that the column has
 	public Button[] colButtons = new Button[4];
+	//Reference to the button prefab
+	public GameObject button;
 	//The MapManager that updates whenever the column changes
 	private GameObject Manager;
 	//And this is the item that holds the reference to the actual script. So there aren't a bunch of GetComponents();
@@ -24,6 +26,13 @@ public class Column : MonoBehaviour {
 	void Start () {
 		Manager = GameObject.Find("MapManager");
 		MM = Manager.GetComponent<MapManager>();
+
+		//Instantiate the four buttons and set them in the array
+		for(int i = 0; i<colButtons.Length; i++)
+		{
+			GameObject newBtn = Instantiate(button);
+			colButtons[i] = newBtn.GetComponent<Button>();
+		}
 	}
 	
 	// Update is called once per frame

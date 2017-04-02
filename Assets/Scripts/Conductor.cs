@@ -28,7 +28,7 @@ public class Conductor : MonoBehaviour {
 	//This is the starting point of the song.
 	private double startSong;
 	private AudioSource song;
-	//private float lastbeat;
+	private float lastbeat;
 
 	// Use this for initialization
 	void Start () {
@@ -36,20 +36,46 @@ public class Conductor : MonoBehaviour {
 		crotchet = 60 / bpm;
 		startSong = AudioSettings.dspTime;
 		songPosition =(float)AudioSettings.dspTime;
-		//lastbeat = 0;
+		lastbeat = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 		//so the song.pitch - offset bit is about slowing down the playing speed apparently. I don't think it'll be necessary but I've commented here just in case.
-		songPosition = (float)(AudioSettings.dspTime - startSong); // * song.pitch - offset;
-		//Debug.Log("Song Position: " + songPosition);
-		//Debug.Log(lastbeat + crotchet);
-		//if (songPosition > lastbeat + crotchet)
-		//{
-  //          //do action
-		//	lastbeat += crotchet;
-		//}
+		if (song.isPlaying)
+		{
+			songPosition = (float)(AudioSettings.dspTime - startSong); // * song.pitch - offset; 
+		}
+																   //Debug.Log("Song Position: " + songPosition);
+																   //Debug.Log(lastbeat + crotchet);
+		if (songPosition > lastbeat + crotchet && song.isPlaying)
+		{
+			//do action
+			lastbeat += crotchet;
+			beatNumber++;
+		}
+	}
+
+	public void PauseSong()
+	{
+		song.Pause();
+	}
+
+	public void PlaySong()
+	{
+        if (song.isPlaying)
+        {
+            beatNumber = 0;
+        }
+
+		startSong = AudioSettings.dspTime;
+        lastbeat = 0;
+		song.Play();
+	}
+
+	public void StopSong()
+	{
+		song.Stop();
 	}
 }
