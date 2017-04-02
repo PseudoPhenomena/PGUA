@@ -47,8 +47,8 @@ public class Conductor : MonoBehaviour {
 		{
 			songPosition = (float)(AudioSettings.dspTime - startSong); // * song.pitch - offset; 
 		}
-																   //Debug.Log("Song Position: " + songPosition);
-																   //Debug.Log(lastbeat + crotchet);
+	    //Debug.Log("Song Position: " + songPosition);
+	    //Debug.Log(lastbeat + crotchet);
 		if (songPosition > lastbeat + crotchet && song.isPlaying)
 		{
 			//do action
@@ -64,7 +64,7 @@ public class Conductor : MonoBehaviour {
 
 	public void PlaySong()
 	{
-        if (song.isPlaying)
+        if (song.isPlaying )
         {
             beatNumber = 0;
         }
