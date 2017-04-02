@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Beatmap beats="313">
+	<obstacle beat="1" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>-15.7</x>
+	</obstacle>
+	<obstacle beat="1" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-15.7</x>
+	</obstacle>
+	<obstacle beat="2" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>-11.26233</x>
+	</obstacle>
+	<obstacle beat="2" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-11.26233</x>
+	</obstacle>
+</Beatmap>

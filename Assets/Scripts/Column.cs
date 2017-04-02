@@ -21,19 +21,6 @@ public class Column : MonoBehaviour {
 	//This is the x-coordinate of every object in this beat
 	[HideInInspector]
 	public float pos;
-    [HideInInspector]
-    public bool _isBlank;
-
-    public bool IsBlank
-    {
-        get
-        {
-            return (colButtons[0].GetComponent<Image>().sprite.name.Equals("Blank")
-                && colButtons[1].GetComponent<Image>().sprite.name.Equals("Blank")
-                && colButtons[2].GetComponent<Image>().sprite.name.Equals("Blank")
-                && colButtons[3].GetComponent<Image>().sprite.name.Equals("Blank"));
-        }
-    }
 
 	// Use this for initialization
 	void Start () {
