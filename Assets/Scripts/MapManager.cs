@@ -16,9 +16,9 @@ public class MapManager : MonoBehaviour {
 	public InputField OpenExistingBox;
 	public InputField ExportBox;
 
-    //Song Source
-    public GameObject songSource;
-    private AudioSource song;
+	//Song Source
+	public GameObject songSource;
+	private AudioSource song;
 
 	//Sprites that the columns use.
 	public List<Sprite> sprites = new List<Sprite>();
@@ -43,8 +43,8 @@ public class MapManager : MonoBehaviour {
 	private string fileName;
 	// Use this for initialization
 	void Start () {
-        song = songSource.GetComponent<AudioSource>();
-        song.Pause();
+		song = songSource.GetComponent<AudioSource>();
+		song.Pause();
 
 		BeatMap = new Dictionary<int, Column>();
 
@@ -121,8 +121,9 @@ public class MapManager : MonoBehaviour {
 				{
 					ColButton currBtn = entry.Value.colButtons[i].GetComponent<ColButton>();
 					//Ignore blanks
-					if (!currBtn.currImg.sprite.Equals("Blank"))
+					if (!currBtn.currImg.sprite.name.Equals("Blank"))
 					{
+
 						string side = "error";
 						string high = "error";
 						string color = "error";

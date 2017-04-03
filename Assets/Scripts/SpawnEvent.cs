@@ -137,7 +137,7 @@ public class SpawnEvent : MonoBehaviour {
 	void Awake()
 	{
 		//TODO: Make loading the xml maps dynamic
-		fileName = "CHASU";
+		fileName = "Chase1";
 		beatMap = new List<BeatObstacle>();
 
 	}

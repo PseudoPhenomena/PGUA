@@ -55,7 +55,7 @@ public class CameraFollow : MonoBehaviour {
 		midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2).y;
 		beatMap = new ArrayList();
 		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "beatmap.txt";
-        bpm = conductor.bpm;
+		bpm = conductor.bpm;
 		Debug.Log("Filepath: " + fileName);
 
 		//Stuff for writing to the beatmap
@@ -98,8 +98,8 @@ public class CameraFollow : MonoBehaviour {
 					}
 				} 
 			}
-			//go to menu
-			//SceneManager.LoadScene(0);
-		}
+            //go to menu
+            SceneManager.LoadScene(0);
+        }
 	}
 }

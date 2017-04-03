@@ -28,11 +28,11 @@ public class Column : MonoBehaviour {
 		MM = Manager.GetComponent<MapManager>();
 
 		//Instantiate the four buttons and set them in the array
-		for(int i = 0; i<colButtons.Length; i++)
-		{
-			GameObject newBtn = Instantiate(button);
-			colButtons[i] = newBtn.GetComponent<Button>();
-		}
+		//for(int i = 0; i<colButtons.Length; i++)
+		//{
+		//	GameObject newBtn = Instantiate(button);
+		//	colButtons[i] = newBtn.GetComponent<Button>();
+		//}
 	}
 	
 	// Update is called once per frame
