@@ -18,6 +18,9 @@ public class SpawnEvent : MonoBehaviour {
 	//This is the object the music is playing from.
 	public GameObject audioBeat;
 
+    //Name of the file to be loaded. I think there is a better way to do this but this will do for now.
+    public string filename;
+
 	///These are kind of the markers for where we want to spawn, what they actually
 	///are, are a spot just ahead of the players where the obstacles should spawn.
 	public GameObject characterReference;
@@ -38,7 +41,7 @@ public class SpawnEvent : MonoBehaviour {
 	private List<BeatObstacle>.Enumerator en;
 	//This is the XmlDoc to be read
 	private XmlDocument xmlDoc;
-	private string fileName;
+	private string _fileName;
 	private TextAsset textXml;
 
 	// Use this for initialization
@@ -87,9 +90,9 @@ public class SpawnEvent : MonoBehaviour {
 
 
 			beatMap.Add(tempObstacle);
-			//A method call to a test method that displays the info in tempObstacle
-			//displayData(tempObstacle);
-		}
+            //A method call to a test method that displays the info in tempObstacle
+            //displayData(tempObstacle);
+        }
 
 		en = beatMap.GetEnumerator();
 	}
@@ -111,7 +114,7 @@ public class SpawnEvent : MonoBehaviour {
 		}
 		else
 		{
-			textXml = (TextAsset)Resources.Load(fileName, typeof(TextAsset));
+			textXml = (TextAsset)Resources.Load(_fileName, typeof(TextAsset));
 			xmlDoc.LoadXml(textXml.text);
 		}
 	}
@@ -119,7 +122,7 @@ public class SpawnEvent : MonoBehaviour {
 	private string getPath()
 	{
 		#if UNITY_EDITOR
-			return Application.dataPath + "/Resources/Music/" + fileName + ".xml";
+			return Application.dataPath + "/Resources/Music/" + _fileName + ".xml";
 		#elif UNITY_ANDROID
 			return Application.persistentDataPath+fileName;
 		#elif UNITY_IPHONE
@@ -137,7 +140,7 @@ public class SpawnEvent : MonoBehaviour {
 	void Awake()
 	{
 		//TODO: Make loading the xml maps dynamic
-		fileName = "Chase1";
+		_fileName = filename;
 		beatMap = new List<BeatObstacle>();
 
 	}
@@ -190,12 +193,12 @@ public class SpawnEvent : MonoBehaviour {
 			spawn = next.spawnPoint;
 			//Debug.Log(spawn);
 			
-			if (next.color.Equals("black"))
+			if (next.color.Equals("Black"))
 			{
 				GameObject obj = Instantiate(blackObs);
 				obj.GetComponent<BlackObs>().Instantiate(spawn);
 			}
-			else if (next.color.Equals("white"))
+			else if (next.color.Equals("White"))
 			{
 				GameObject obj = Instantiate(whiteObs);
 				obj.GetComponent<WhiteObs>().Instantiate(spawn);
