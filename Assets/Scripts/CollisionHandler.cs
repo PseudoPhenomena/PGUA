@@ -12,7 +12,11 @@ public class CollisionHandler : MonoBehaviour {
 	
 	//Object that keeps track of Score
 	public GameObject ScoreKeeperObj;
-	private ScoreKeeper ScoreKeeperScript;//Determined at runtime
+	public GameObject TokenManagerObj;
+
+	//Determined at runtime
+	private ScoreKeeper ScoreKeeperScript;
+	private TokenPoolScript TokenManager;
 
 	////This is the dialogue manager we will do it with.
 	//private DialogueManager dm;
@@ -21,11 +25,7 @@ public class CollisionHandler : MonoBehaviour {
 	void Start () {
 		//dm = panel.GetComponent<DialogueManager>();
 		ScoreKeeperScript = ScoreKeeperObj.GetComponent<ScoreKeeper>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
+		TokenManager = TokenManagerObj.GetComponent<TokenPoolScript> ();
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -40,8 +40,8 @@ public class CollisionHandler : MonoBehaviour {
 			//decrease score
 			ScoreKeeperScript.OtherColorHit();
 
-			//Destroy pickup
-			Destroy(col.gameObject);
+			// cycle token
+			TokenManager.TokenDestroy(col.gameObject);
 		}
 		//if the object is black and the pickup is black
 		//MATCH
@@ -50,7 +50,7 @@ public class CollisionHandler : MonoBehaviour {
 			//Increase score
 			ScoreKeeperScript.SameColorHit();
 			//Destroy pickup
-			Destroy(col.gameObject);
+			TokenManager.TokenDestroy(col.gameObject);
 		}
 		//If the object is white and the pickup is black
 		//MISMATCH
@@ -62,7 +62,7 @@ public class CollisionHandler : MonoBehaviour {
 			ScoreKeeperScript.OtherColorHit();
 
 			//Destroy pickup
-			Destroy(col.gameObject);
+			TokenManager.TokenDestroy(col.gameObject);
 		}
 		//If the object is white and the pickup is white
 		//MATCH
@@ -71,7 +71,7 @@ public class CollisionHandler : MonoBehaviour {
 			//Increase score
 			ScoreKeeperScript.SameColorHit();
 			//Destroy pickup
-			Destroy(col.gameObject);
+			TokenManager.TokenDestroy(col.gameObject);
 		}
 	}
 }

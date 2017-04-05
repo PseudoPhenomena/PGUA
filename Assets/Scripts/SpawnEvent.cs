@@ -18,6 +18,9 @@ public class SpawnEvent : MonoBehaviour {
 	//This is the object the music is playing from.
 	public GameObject audioBeat;
 
+	//	Token pool manager, needed to be able to hand it the spawn queues
+	public GameObject TokenPoolManager;
+
 	//Name of the file to be loaded. I think there is a better way to do this but this will do for now.
 	public string filename;
 
@@ -39,6 +42,11 @@ public class SpawnEvent : MonoBehaviour {
 	//This is the list that it reads the game objects into that the beginning of a level.
 	private List<BeatObstacle> beatMap;
 	private List<BeatObstacle>.Enumerator en;
+
+	// Spawn queues handed off to the map token pool script
+	private LinkedList<BeatObstacle> whiteQueue = new LinkedList<BeatObstacle> ();
+	private LinkedList<BeatObstacle> blackQueue = new LinkedList<BeatObstacle> ();
+
 	//This is the XmlDoc to be read
 	private XmlDocument xmlDoc;
 	private string _fileName;
@@ -52,10 +60,31 @@ public class SpawnEvent : MonoBehaviour {
 		loadXMLFromAssets();
 		readXml();
 
-		foreach (BeatObstacle el in beatMap)
+		//	new way of spawning all tokens:
+		//		give the queues to token pool manager
+		//		call its populate method to set up the first round of tokens
+		//		when tokens are consumed or missed, they are moved to a new location by the pool
+		if (TokenPoolManager != null) 
 		{
-			SpawnEnemy();
+			// hand off the queues
+			TokenPoolScript tpScript = TokenPoolManager.GetComponent<TokenPoolScript>();
+			tpScript.blackQueue = blackQueue;
+			tpScript.whiteQueue = whiteQueue;
+
+			// populate the first round of tokens
+			tpScript.PopulateLevel ();
+		} 
+		else 
+		{
+			// report missing TPM
+			Debug.Log("Spawn event manager was not given a reference to token pool manager.");
 		}
+
+		// ARTIFACT: old way of spawning all tokens
+		//foreach (BeatObstacle el in beatMap)
+		//{
+		//	SpawnEnemy();
+		//}
 	}
 
 
@@ -88,13 +117,23 @@ public class SpawnEvent : MonoBehaviour {
 				tempObstacle.spawnPoint = new Vector3(x, BOT + 2, 0.87f);
 			}
 
+			// ARTIFACT: old spawn queue
+			//beatMap.Add(tempObstacle);
 
-			beatMap.Add(tempObstacle);
 			//A method call to a test method that displays the info in tempObstacle
 			//displayData(tempObstacle);
+
+			if (tempObstacle.color == "White" || tempObstacle.color == "white") {
+				whiteQueue.AddLast (tempObstacle);
+			} else if (tempObstacle.color == "Black" || tempObstacle.color == "black") {
+				blackQueue.AddLast (tempObstacle);
+			} else {
+				Debug.Log ("Color did not match known: " + tempObstacle.color);	
+			}
 		}
 
-		en = beatMap.GetEnumerator();
+		// ARTIFACT: created enumerator for old spawn queue
+		//en = beatMap.GetEnumerator();
 	}
 
 	private void displayData(BeatObstacle tempObstacle)
