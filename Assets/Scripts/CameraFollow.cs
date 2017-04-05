@@ -39,8 +39,8 @@ public class CameraFollow : MonoBehaviour {
 	//This is an arraylist to write player input to. This will help me map out the beatmap
 	ArrayList beatMap;
 
-    //Reference to the character object
-    public GameObject character;
+	//Reference to the character object
+	public GameObject character;
 
 	//The filepath of the beatmap
 	string fileName;
@@ -50,16 +50,16 @@ public class CameraFollow : MonoBehaviour {
 	private float crotchet;
 	private float bpm;
 	private int beat;
-    private string playerSpeed;
+	private string playerSpeed;
 
-    // Use this for initialization
-    void Start() {
+	// Use this for initialization
+	void Start() {
 		Vector3 toAdd = new Vector3(xOffset, 0, 0);
 		offset = transform.position + toAdd;
 		audio = GetComponent<AudioSource>();
 		midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2).y;
 		beatMap = new ArrayList();
-        playerSpeed = character.GetComponent<CharacterMovement>().speed.ToString();
+		playerSpeed = character.GetComponent<CharacterMovement>().speed.ToString();
 		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
 		bpm = conductor.bpm;
 		Debug.Log("Filepath: " + fileName);
@@ -104,8 +104,8 @@ public class CameraFollow : MonoBehaviour {
 					}
 				} 
 			}
-            //go to menu
-            SceneManager.LoadScene(0);
-        }
+			//go to menu
+			SceneManager.LoadScene(0);
+		}
 	}
 }

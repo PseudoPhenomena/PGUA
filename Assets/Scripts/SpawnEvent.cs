@@ -18,8 +18,8 @@ public class SpawnEvent : MonoBehaviour {
 	//This is the object the music is playing from.
 	public GameObject audioBeat;
 
-    //Name of the file to be loaded. I think there is a better way to do this but this will do for now.
-    public string filename;
+	//Name of the file to be loaded. I think there is a better way to do this but this will do for now.
+	public string filename;
 
 	///These are kind of the markers for where we want to spawn, what they actually
 	///are, are a spot just ahead of the players where the obstacles should spawn.
@@ -90,9 +90,9 @@ public class SpawnEvent : MonoBehaviour {
 
 
 			beatMap.Add(tempObstacle);
-            //A method call to a test method that displays the info in tempObstacle
-            //displayData(tempObstacle);
-        }
+			//A method call to a test method that displays the info in tempObstacle
+			//displayData(tempObstacle);
+		}
 
 		en = beatMap.GetEnumerator();
 	}

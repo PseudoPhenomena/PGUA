@@ -1,0 +1,3129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Beatmap beats="322">
+	<obstacle beat="5" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-20.98043</x>
+	</obstacle>
+	<obstacle beat="5" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-20.98043</x>
+	</obstacle>
+	<obstacle beat="6" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-17.79594</x>
+	</obstacle>
+	<obstacle beat="6" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-17.79594</x>
+	</obstacle>
+	<obstacle beat="7" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-14.84732</x>
+	</obstacle>
+	<obstacle beat="7" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-14.84732</x>
+	</obstacle>
+	<obstacle beat="8" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-11.66285</x>
+	</obstacle>
+	<obstacle beat="8" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-11.66285</x>
+	</obstacle>
+	<obstacle beat="9" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>-8.714252</x>
+	</obstacle>
+	<obstacle beat="10" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>-5.529766</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>-4.055466</x>
+	</obstacle>
+	<obstacle beat="11" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>-2.581165</x>
+	</obstacle>
+	<obstacle beat="11" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>-2.581165</x>
+	</obstacle>
+	<obstacle beat="12" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>0.5130634</x>
+	</obstacle>
+	<obstacle beat="13" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>3.579609</x>
+	</obstacle>
+	<obstacle beat="14" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>6.646154</x>
+	</obstacle>
+	<obstacle beat="15" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>9.594755</x>
+	</obstacle>
+	<obstacle beat="15" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>9.594755</x>
+	</obstacle>
+	<obstacle beat="16" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>12.77925</x>
+	</obstacle>
+	<obstacle beat="16" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>12.77925</x>
+	</obstacle>
+	<obstacle beat="17" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>15.84579</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>17.37906</x>
+	</obstacle>
+	<obstacle beat="17" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>15.84579</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>17.37906</x>
+	</obstacle>
+	<obstacle beat="18" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>18.91234</x>
+	</obstacle>
+	<obstacle beat="18" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>18.91234</x>
+	</obstacle>
+	<obstacle beat="19" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>21.97888</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>23.51215</x>
+	</obstacle>
+	<obstacle beat="19" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>21.97888</x>
+	</obstacle>
+	<obstacle beat="20" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>25.04543</x>
+	</obstacle>
+	<obstacle beat="21" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>28.11788</x>
+	</obstacle>
+	<obstacle beat="23" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>34.25097</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>35.72527</x>
+	</obstacle>
+	<obstacle beat="23" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>34.25097</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>35.72527</x>
+	</obstacle>
+	<obstacle beat="24" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>37.19957</x>
+	</obstacle>
+	<obstacle beat="24" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>37.19957</x>
+	</obstacle>
+	<obstacle beat="25" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>40.61995</x>
+	</obstacle>
+	<obstacle beat="26" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>43.56855</x>
+	</obstacle>
+	<obstacle beat="27" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>46.6351</x>
+	</obstacle>
+	<obstacle beat="28" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>49.70164</x>
+	</obstacle>
+	<obstacle beat="29" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>52.88613</x>
+	</obstacle>
+	<obstacle beat="30" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>55.71679</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>57.30904</x>
+	</obstacle>
+	<obstacle beat="31" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>58.90128</x>
+	</obstacle>
+	<obstacle beat="31" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>58.90128</x>
+	</obstacle>
+	<obstacle beat="32" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>61.96783</x>
+	</obstacle>
+	<obstacle beat="32" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>61.96783</x>
+	</obstacle>
+	<obstacle beat="33" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>65.03438</x>
+	</obstacle>
+	<obstacle beat="33" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>65.03438</x>
+	</obstacle>
+	<obstacle beat="34" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>67.98298</x>
+	</obstacle>
+	<obstacle beat="34" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>67.98298</x>
+	</obstacle>
+	<obstacle beat="35" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>71.16746</x>
+	</obstacle>
+	<obstacle beat="35" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>71.16746</x>
+	</obstacle>
+	<obstacle beat="36" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>74.35196</x>
+	</obstacle>
+	<obstacle beat="37" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>77.30056</x>
+	</obstacle>
+	<obstacle beat="38" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>80.3671</x>
+	</obstacle>
+	<obstacle beat="38" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>80.3671</x>
+	</obstacle>
+	<obstacle beat="39" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>83.44837</x>
+	</obstacle>
+	<obstacle beat="39" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>83.44837</x>
+	</obstacle>
+	<obstacle beat="40" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>86.51492</x>
+	</obstacle>
+	<obstacle beat="41" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>89.46378</x>
+	</obstacle>
+	<obstacle beat="41" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>89.46378</x>
+	</obstacle>
+	<obstacle beat="42" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>92.64799</x>
+	</obstacle>
+	<obstacle beat="43" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>95.5966</x>
+	</obstacle>
+	<obstacle beat="44" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>98.78108</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>100.2554</x>
+	</obstacle>
+	<obstacle beat="44" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>98.78108</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>100.2554</x>
+	</obstacle>
+	<obstacle beat="45" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>101.7297</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>103.263</x>
+	</obstacle>
+	<obstacle beat="45" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>101.7297</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>103.263</x>
+	</obstacle>
+	<obstacle beat="46" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>104.7962</x>
+	</obstacle>
+	<obstacle beat="46" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>104.7962</x>
+	</obstacle>
+	<obstacle beat="47" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>107.8628</x>
+	</obstacle>
+	<obstacle beat="48" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>111.0473</x>
+	</obstacle>
+	<obstacle beat="48" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>111.0473</x>
+	</obstacle>
+	<obstacle beat="49" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>113.9959</x>
+	</obstacle>
+	<obstacle beat="49" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>113.9959</x>
+	</obstacle>
+	<obstacle beat="50" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>117.0624</x>
+	</obstacle>
+	<obstacle beat="50" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>117.0624</x>
+	</obstacle>
+	<obstacle beat="51" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>120.129</x>
+	</obstacle>
+	<obstacle beat="51" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>120.129</x>
+	</obstacle>
+	<obstacle beat="52" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>123.1955</x>
+	</obstacle>
+	<obstacle beat="52" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>123.1955</x>
+	</obstacle>
+	<obstacle beat="53" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>126.38</x>
+	</obstacle>
+	<obstacle beat="53" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>126.38</x>
+	</obstacle>
+	<obstacle beat="54" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>129.3286</x>
+	</obstacle>
+	<obstacle beat="54" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>129.3286</x>
+	</obstacle>
+	<obstacle beat="55" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>132.3952</x>
+	</obstacle>
+	<obstacle beat="55" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>132.3952</x>
+	</obstacle>
+	<obstacle beat="56" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>135.4617</x>
+	</obstacle>
+	<obstacle beat="56" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>135.4617</x>
+	</obstacle>
+	<obstacle beat="58" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>141.5948</x>
+	</obstacle>
+	<obstacle beat="58" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>141.5948</x>
+	</obstacle>
+	<obstacle beat="59" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>144.6613</x>
+	</obstacle>
+	<obstacle beat="59" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>144.6613</x>
+	</obstacle>
+	<obstacle beat="60" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>147.7279</x>
+	</obstacle>
+	<obstacle beat="60" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>147.7279</x>
+	</obstacle>
+	<obstacle beat="61" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>150.7944</x>
+	</obstacle>
+	<obstacle beat="61" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>150.7944</x>
+	</obstacle>
+	<obstacle beat="62" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>153.743</x>
+	</obstacle>
+	<obstacle beat="62" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>153.743</x>
+	</obstacle>
+	<obstacle beat="63" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>156.9275</x>
+	</obstacle>
+	<obstacle beat="63" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>156.9275</x>
+	</obstacle>
+	<obstacle beat="64" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>159.8761</x>
+	</obstacle>
+	<obstacle beat="65" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>162.9559</x>
+	</obstacle>
+	<obstacle beat="66" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>166.0224</x>
+	</obstacle>
+	<obstacle beat="66" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>166.0224</x>
+	</obstacle>
+	<obstacle beat="67" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>169.2069</x>
+	</obstacle>
+	<obstacle beat="68" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>172.1555</x>
+	</obstacle>
+	<obstacle beat="68" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>172.1555</x>
+	</obstacle>
+	<obstacle beat="70" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>178.4065</x>
+	</obstacle>
+	<obstacle beat="70" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>178.4065</x>
+	</obstacle>
+	<obstacle beat="71" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>181.3551</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>182.9474</x>
+	</obstacle>
+	<obstacle beat="72" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>184.5397</x>
+	</obstacle>
+	<obstacle beat="72" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>184.5397</x>
+	</obstacle>
+	<obstacle beat="73" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>187.4883</x>
+	</obstacle>
+	<obstacle beat="74" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>190.5921</x>
+	</obstacle>
+	<obstacle beat="74" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>190.5921</x>
+	</obstacle>
+	<obstacle beat="75" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>193.5407</x>
+	</obstacle>
+	<obstacle beat="76" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>196.7252</x>
+	</obstacle>
+	<obstacle beat="76" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>196.7252</x>
+	</obstacle>
+	<obstacle beat="77" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>199.6738</x>
+	</obstacle>
+	<obstacle beat="78" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>202.8583</x>
+	</obstacle>
+	<obstacle beat="78" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>202.8583</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>204.3326</x>
+	</obstacle>
+	<obstacle beat="79" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>205.8069</x>
+	</obstacle>
+	<obstacle beat="80" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>208.9914</x>
+	</obstacle>
+	<obstacle beat="80" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>208.9914</x>
+	</obstacle>
+	<obstacle beat="81" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>211.94</x>
+	</obstacle>
+	<obstacle beat="81" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>211.94</x>
+	</obstacle>
+	<obstacle beat="82" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>215.2424</x>
+	</obstacle>
+	<obstacle beat="82" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>215.2424</x>
+	</obstacle>
+	<obstacle beat="83" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>218.309</x>
+	</obstacle>
+	<obstacle beat="83" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>218.309</x>
+	</obstacle>
+	<obstacle beat="84" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>221.3755</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>222.9088</x>
+	</obstacle>
+	<obstacle beat="84" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>221.3755</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>222.9088</x>
+	</obstacle>
+	<obstacle beat="85" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>224.4421</x>
+	</obstacle>
+	<obstacle beat="86" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>227.5086</x>
+	</obstacle>
+	<obstacle beat="86" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>227.5086</x>
+	</obstacle>
+	<obstacle beat="87" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>230.5752</x>
+	</obstacle>
+	<obstacle beat="88" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>233.6417</x>
+	</obstacle>
+	<obstacle beat="88" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>233.6417</x>
+	</obstacle>
+	<obstacle beat="89" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>236.8262</x>
+	</obstacle>
+	<obstacle beat="90" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>239.7748</x>
+	</obstacle>
+	<obstacle beat="91" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>242.8414</x>
+	</obstacle>
+	<obstacle beat="91" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>242.8414</x>
+	</obstacle>
+	<obstacle beat="92" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>245.9079</x>
+	</obstacle>
+	<obstacle beat="93" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>248.9744</x>
+	</obstacle>
+	<obstacle beat="94" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>251.923</x>
+	</obstacle>
+	<obstacle beat="94" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>251.923</x>
+	</obstacle>
+	<obstacle beat="95" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>255.1076</x>
+	</obstacle>
+	<obstacle beat="96" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>258.0561</x>
+	</obstacle>
+	<obstacle beat="96" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>258.0561</x>
+	</obstacle>
+	<obstacle beat="97" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>261.2406</x>
+	</obstacle>
+	<obstacle beat="98" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>264.1892</x>
+	</obstacle>
+	<obstacle beat="98" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>264.1892</x>
+	</obstacle>
+	<obstacle beat="99" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>267.3737</x>
+	</obstacle>
+	<obstacle beat="99" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>267.3737</x>
+	</obstacle>
+	<obstacle beat="100" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>270.3223</x>
+	</obstacle>
+	<obstacle beat="101" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>273.5068</x>
+	</obstacle>
+	<obstacle beat="101" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>273.5068</x>
+	</obstacle>
+	<obstacle beat="102" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>276.4554</x>
+	</obstacle>
+	<obstacle beat="103" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>279.522</x>
+	</obstacle>
+	<obstacle beat="103" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>279.522</x>
+	</obstacle>
+	<obstacle beat="104" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>282.7065</x>
+	</obstacle>
+	<obstacle beat="104" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>282.7065</x>
+	</obstacle>
+	<obstacle beat="105" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>285.773</x>
+	</obstacle>
+	<obstacle beat="105" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>285.773</x>
+	</obstacle>
+	<obstacle beat="106" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>288.8395</x>
+	</obstacle>
+	<obstacle beat="106" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>288.8395</x>
+	</obstacle>
+	<obstacle beat="107" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>291.7882</x>
+	</obstacle>
+	<obstacle beat="107" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>291.7882</x>
+	</obstacle>
+	<obstacle beat="108" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>294.9726</x>
+	</obstacle>
+	<obstacle beat="108" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>294.9726</x>
+	</obstacle>
+	<obstacle beat="109" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>297.9366</x>
+	</obstacle>
+	<obstacle beat="110" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>301.0032</x>
+	</obstacle>
+	<obstacle beat="111" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>304.0697</x>
+	</obstacle>
+	<obstacle beat="112" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>307.1363</x>
+	</obstacle>
+	<obstacle beat="112" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>307.1363</x>
+	</obstacle>
+	<obstacle beat="113" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>310.2028</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>311.7401</x>
+	</obstacle>
+	<obstacle beat="113" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>310.2028</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>311.7401</x>
+	</obstacle>
+	<obstacle beat="114" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>313.2775</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>314.7518</x>
+	</obstacle>
+	<obstacle beat="114" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>313.2775</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>314.7518</x>
+	</obstacle>
+	<obstacle beat="115" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>316.2261</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>317.8184</x>
+	</obstacle>
+	<obstacle beat="115" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>316.2261</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>317.8184</x>
+	</obstacle>
+	<obstacle beat="116" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>319.4106</x>
+	</obstacle>
+	<obstacle beat="116" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>319.4106</x>
+	</obstacle>
+	<obstacle beat="117" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>322.3591</x>
+	</obstacle>
+	<obstacle beat="117" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>322.3591</x>
+	</obstacle>
+	<obstacle beat="118" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>325.4257</x>
+	</obstacle>
+	<obstacle beat="119" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>328.4922</x>
+	</obstacle>
+	<obstacle beat="119" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>328.4922</x>
+	</obstacle>
+	<obstacle beat="120" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>331.6767</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>333.21</x>
+	</obstacle>
+	<obstacle beat="120" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>331.6767</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>333.21</x>
+	</obstacle>
+	<obstacle beat="121" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>334.7433</x>
+	</obstacle>
+	<obstacle beat="121" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>334.7433</x>
+	</obstacle>
+	<obstacle beat="122" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>337.6919</x>
+	</obstacle>
+	<obstacle beat="122" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>337.6919</x>
+	</obstacle>
+	<obstacle beat="123" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>340.8764</x>
+	</obstacle>
+	<obstacle beat="123" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>340.8764</x>
+	</obstacle>
+	<obstacle beat="124" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>343.9429</x>
+	</obstacle>
+	<obstacle beat="125" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>347.0095</x>
+	</obstacle>
+	<obstacle beat="125" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>347.0095</x>
+	</obstacle>
+	<obstacle beat="126" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>349.9581</x>
+	</obstacle>
+	<obstacle beat="126" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>349.9581</x>
+	</obstacle>
+	<obstacle beat="127" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>353.1562</x>
+	</obstacle>
+	<obstacle beat="127" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>353.1562</x>
+	</obstacle>
+	<obstacle beat="128" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>356.1048</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>357.6381</x>
+	</obstacle>
+	<obstacle beat="128" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>356.1048</x>
+	</obstacle>
+	<obstacle beat="129" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>359.1714</x>
+	</obstacle>
+	<obstacle beat="130" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>362.238</x>
+	</obstacle>
+	<obstacle beat="130" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>362.238</x>
+	</obstacle>
+	<obstacle beat="131" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>365.3045</x>
+	</obstacle>
+	<obstacle beat="132" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>368.371</x>
+	</obstacle>
+	<obstacle beat="133" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>371.4376</x>
+	</obstacle>
+	<obstacle beat="134" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>374.3862</x>
+	</obstacle>
+	<obstacle beat="135" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>377.5707</x>
+	</obstacle>
+	<obstacle beat="136" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>380.5193</x>
+	</obstacle>
+	<obstacle beat="136" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>380.5193</x>
+	</obstacle>
+	<obstacle beat="137" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>383.5858</x>
+	</obstacle>
+	<obstacle beat="138" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>386.8883</x>
+	</obstacle>
+	<obstacle beat="138" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>386.8883</x>
+	</obstacle>
+	<obstacle beat="139" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>389.8369</x>
+	</obstacle>
+	<obstacle beat="140" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>393.1393</x>
+	</obstacle>
+	<obstacle beat="141" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>396.0879</x>
+	</obstacle>
+	<obstacle beat="142" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>399.2724</x>
+	</obstacle>
+	<obstacle beat="143" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>402.221</x>
+	</obstacle>
+	<obstacle beat="143" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>402.221</x>
+	</obstacle>
+	<obstacle beat="144" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>405.2875</x>
+	</obstacle>
+	<obstacle beat="145" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>408.3693</x>
+	</obstacle>
+	<obstacle beat="146" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>411.5538</x>
+	</obstacle>
+	<obstacle beat="146" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>411.5538</x>
+	</obstacle>
+	<obstacle beat="147" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>414.3845</x>
+	</obstacle>
+	<obstacle beat="148" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>417.5689</x>
+	</obstacle>
+	<obstacle beat="148" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>417.5689</x>
+	</obstacle>
+	<obstacle beat="149" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>420.6355</x>
+	</obstacle>
+	<obstacle beat="150" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>423.7021</x>
+	</obstacle>
+	<obstacle beat="150" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>423.7021</x>
+	</obstacle>
+	<obstacle beat="151" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>426.6507</x>
+	</obstacle>
+	<obstacle beat="151" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>426.6507</x>
+	</obstacle>
+	<obstacle beat="152" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>429.8351</x>
+	</obstacle>
+	<obstacle beat="152" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>429.8351</x>
+	</obstacle>
+	<obstacle beat="153" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>432.7868</x>
+	</obstacle>
+	<obstacle beat="153" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>432.7868</x>
+	</obstacle>
+	<obstacle beat="154" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>435.9713</x>
+	</obstacle>
+	<obstacle beat="154" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>435.9713</x>
+	</obstacle>
+	<obstacle beat="155" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>439.0378</x>
+	</obstacle>
+	<obstacle beat="156" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>441.9864</x>
+	</obstacle>
+	<obstacle beat="157" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>445.1709</x>
+	</obstacle>
+	<obstacle beat="157" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>445.1709</x>
+	</obstacle>
+	<obstacle beat="158" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>448.2374</x>
+	</obstacle>
+	<obstacle beat="159" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>451.304</x>
+	</obstacle>
+	<obstacle beat="159" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>451.304</x>
+	</obstacle>
+	<obstacle beat="160" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>454.2526</x>
+	</obstacle>
+	<obstacle beat="160" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>454.2526</x>
+	</obstacle>
+	<obstacle beat="161" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>457.437</x>
+	</obstacle>
+	<obstacle beat="162" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>460.3857</x>
+	</obstacle>
+	<obstacle beat="162" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>460.3857</x>
+	</obstacle>
+	<obstacle beat="163" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>463.5701</x>
+	</obstacle>
+	<obstacle beat="163" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>463.5701</x>
+	</obstacle>
+	<obstacle beat="164" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>466.5187</x>
+	</obstacle>
+	<obstacle beat="165" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>469.7032</x>
+	</obstacle>
+	<obstacle beat="166" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>472.6519</x>
+	</obstacle>
+	<obstacle beat="167" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>475.7184</x>
+	</obstacle>
+	<obstacle beat="168" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>478.785</x>
+	</obstacle>
+	<obstacle beat="168" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>478.785</x>
+	</obstacle>
+	<obstacle beat="169" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>481.8515</x>
+	</obstacle>
+	<obstacle beat="170" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>484.918</x>
+	</obstacle>
+	<obstacle beat="171" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>487.9846</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>489.5179</x>
+	</obstacle>
+	<obstacle beat="172" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>491.0512</x>
+	</obstacle>
+	<obstacle beat="172" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>491.0512</x>
+	</obstacle>
+	<obstacle beat="173" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>494.1177</x>
+	</obstacle>
+	<obstacle beat="173" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>494.1177</x>
+	</obstacle>
+	<obstacle beat="174" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>497.3022</x>
+	</obstacle>
+	<obstacle beat="174" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>497.3022</x>
+	</obstacle>
+	<obstacle beat="175" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>500.2508</x>
+	</obstacle>
+	<obstacle beat="176" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>503.3174</x>
+	</obstacle>
+	<obstacle beat="177" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>506.3839</x>
+	</obstacle>
+	<obstacle beat="177" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>506.3839</x>
+	</obstacle>
+	<obstacle beat="178" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>509.4504</x>
+	</obstacle>
+	<obstacle beat="178" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>509.4504</x>
+	</obstacle>
+	<obstacle beat="179" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>512.399</x>
+	</obstacle>
+	<obstacle beat="179" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>512.399</x>
+	</obstacle>
+	<obstacle beat="180" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>515.5835</x>
+	</obstacle>
+	<obstacle beat="180" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>515.5835</x>
+	</obstacle>
+	<obstacle beat="181" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>518.65</x>
+	</obstacle>
+	<obstacle beat="182" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>521.7166</x>
+	</obstacle>
+	<obstacle beat="182" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>521.7166</x>
+	</obstacle>
+	<obstacle beat="183" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>524.6652</x>
+	</obstacle>
+	<obstacle beat="183" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>524.6652</x>
+	</obstacle>
+	<obstacle beat="184" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>527.8497</x>
+	</obstacle>
+	<obstacle beat="184" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>527.8497</x>
+	</obstacle>
+	<obstacle beat="185" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>530.7983</x>
+	</obstacle>
+	<obstacle beat="185" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>530.7983</x>
+	</obstacle>
+	<obstacle beat="186" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>533.9827</x>
+	</obstacle>
+	<obstacle beat="186" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>533.9827</x>
+	</obstacle>
+	<obstacle beat="187" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>536.9313</x>
+	</obstacle>
+	<obstacle beat="187" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>536.9313</x>
+	</obstacle>
+	<obstacle beat="188" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>539.9787</x>
+	</obstacle>
+	<obstacle beat="188" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>539.9787</x>
+	</obstacle>
+	<obstacle beat="189" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>543.1632</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>544.6964</x>
+	</obstacle>
+	<obstacle beat="189" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>543.1632</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>544.6964</x>
+	</obstacle>
+	<obstacle beat="190" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>546.2297</x>
+	</obstacle>
+	<obstacle beat="191" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>549.2963</x>
+	</obstacle>
+	<obstacle beat="191" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>549.2963</x>
+	</obstacle>
+	<obstacle beat="192" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>552.245</x>
+	</obstacle>
+	<obstacle beat="192" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>552.245</x>
+	</obstacle>
+	<obstacle beat="193" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>555.5475</x>
+	</obstacle>
+	<obstacle beat="193" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>555.5475</x>
+	</obstacle>
+	<obstacle beat="194" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>558.3781</x>
+	</obstacle>
+	<obstacle beat="195" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>561.5626</x>
+	</obstacle>
+	<obstacle beat="195" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>561.5626</x>
+	</obstacle>
+	<obstacle beat="196" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>564.6292</x>
+	</obstacle>
+	<obstacle beat="197" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>567.8137</x>
+	</obstacle>
+	<obstacle beat="197" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>567.8137</x>
+	</obstacle>
+	<obstacle beat="198" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>570.8802</x>
+	</obstacle>
+	<obstacle beat="199" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>573.9466</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>575.4209</x>
+	</obstacle>
+	<obstacle beat="200" double="BlackWhiteDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>576.8952</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>578.4874</x>
+	</obstacle>
+	<obstacle beat="201" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>580.0797</x>
+	</obstacle>
+	<obstacle beat="202" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>583.0283</x>
+	</obstacle>
+	<obstacle beat="203" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>586.2128</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>587.6871</x>
+	</obstacle>
+	<obstacle beat="204" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>589.1614</x>
+	</obstacle>
+	<obstacle beat="205" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>592.3459</x>
+	</obstacle>
+	<obstacle beat="205" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>592.3459</x>
+	</obstacle>
+	<obstacle beat="206" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>595.4125</x>
+	</obstacle>
+	<obstacle beat="206" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>595.4125</x>
+	</obstacle>
+	<obstacle beat="207" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>598.361</x>
+	</obstacle>
+	<obstacle beat="207" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>598.361</x>
+	</obstacle>
+	<obstacle beat="208" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>601.5455</x>
+	</obstacle>
+	<obstacle beat="209" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>604.6121</x>
+	</obstacle>
+	<obstacle beat="210" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>607.6448</x>
+	</obstacle>
+	<obstacle beat="210" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>607.6448</x>
+	</obstacle>
+	<obstacle beat="211" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>610.7114</x>
+	</obstacle>
+	<obstacle beat="211" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>610.7114</x>
+	</obstacle>
+	<obstacle beat="212" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>613.778</x>
+	</obstacle>
+	<obstacle beat="212" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>613.778</x>
+	</obstacle>
+	<obstacle beat="213" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>616.7267</x>
+	</obstacle>
+	<obstacle beat="213" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>616.7267</x>
+	</obstacle>
+	<obstacle beat="214" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>619.9112</x>
+	</obstacle>
+	<obstacle beat="214" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>619.9112</x>
+	</obstacle>
+	<obstacle beat="215" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>622.8598</x>
+	</obstacle>
+	<obstacle beat="215" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>622.8598</x>
+	</obstacle>
+	<obstacle beat="216" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>626.0443</x>
+	</obstacle>
+	<obstacle beat="217" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>628.9929</x>
+	</obstacle>
+	<obstacle beat="218" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>632.1774</x>
+	</obstacle>
+	<obstacle beat="218" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>632.1774</x>
+	</obstacle>
+	<obstacle beat="219" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>635.1259</x>
+	</obstacle>
+	<obstacle beat="219" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>635.1259</x>
+	</obstacle>
+	<obstacle beat="220" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>638.1925</x>
+	</obstacle>
+	<obstacle beat="220" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>638.1925</x>
+	</obstacle>
+	<obstacle beat="221" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>641.259</x>
+	</obstacle>
+	<obstacle beat="221" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>641.259</x>
+	</obstacle>
+	<obstacle beat="222" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>644.4435</x>
+	</obstacle>
+	<obstacle beat="222" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>644.4435</x>
+	</obstacle>
+	<obstacle beat="223" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>647.5101</x>
+	</obstacle>
+	<obstacle beat="223" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>647.5101</x>
+	</obstacle>
+	<obstacle beat="224" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>650.4587</x>
+	</obstacle>
+	<obstacle beat="224" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>650.4587</x>
+	</obstacle>
+	<obstacle beat="225" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>653.6432</x>
+	</obstacle>
+	<obstacle beat="225" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>653.6432</x>
+	</obstacle>
+	<obstacle beat="226" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>656.5916</x>
+	</obstacle>
+	<obstacle beat="226" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>656.5916</x>
+	</obstacle>
+	<obstacle beat="227" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>659.7762</x>
+	</obstacle>
+	<obstacle beat="227" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>659.7762</x>
+	</obstacle>
+	<obstacle beat="228" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>662.7249</x>
+	</obstacle>
+	<obstacle beat="228" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>662.7249</x>
+	</obstacle>
+	<obstacle beat="229" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>665.7912</x>
+	</obstacle>
+	<obstacle beat="229" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>665.7912</x>
+	</obstacle>
+	<obstacle beat="230" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>668.8577</x>
+	</obstacle>
+	<obstacle beat="230" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>668.8577</x>
+	</obstacle>
+	<obstacle beat="231" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>671.9243</x>
+	</obstacle>
+	<obstacle beat="231" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>671.9243</x>
+	</obstacle>
+	<obstacle beat="232" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>674.8729</x>
+	</obstacle>
+	<obstacle beat="232" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>674.8729</x>
+	</obstacle>
+	<obstacle beat="233" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>678.0576</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>679.5908</x>
+	</obstacle>
+	<obstacle beat="234" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>681.1241</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>682.6572</x>
+	</obstacle>
+	<obstacle beat="234" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>681.1241</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>682.6572</x>
+	</obstacle>
+	<obstacle beat="235" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>True</high>
+		<color>white</color>
+		<x>684.1904</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>True</high>
+		<color>black</color>
+		<x>685.6648</x>
+	</obstacle>
+	<obstacle beat="236" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>True</high>
+		<color>white</color>
+		<x>687.1392</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>True</high>
+		<color>black</color>
+		<x>688.7314</x>
+	</obstacle>
+	<obstacle beat="237" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>690.3237</x>
+	</obstacle>
+	<obstacle beat="238" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>693.2723</x>
+	</obstacle>
+	<obstacle beat="238" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>693.2723</x>
+	</obstacle>
+	<obstacle beat="239" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>696.4568</x>
+	</obstacle>
+	<obstacle beat="240" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>699.5234</x>
+	</obstacle>
+	<obstacle beat="241" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>702.472</x>
+	</obstacle>
+	<obstacle beat="242" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>705.6565</x>
+	</obstacle>
+	<obstacle beat="243" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>708.6051</x>
+	</obstacle>
+	<obstacle beat="244" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>711.7896</x>
+	</obstacle>
+	<obstacle beat="245" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>714.7382</x>
+	</obstacle>
+	<obstacle beat="245" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>714.7382</x>
+	</obstacle>
+	<obstacle beat="246" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>717.9227</x>
+	</obstacle>
+	<obstacle beat="246" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>717.9227</x>
+	</obstacle>
+	<obstacle beat="247" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>720.8713</x>
+	</obstacle>
+	<obstacle beat="247" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>720.8713</x>
+	</obstacle>
+	<obstacle beat="248" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>723.9379</x>
+	</obstacle>
+	<obstacle beat="248" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>723.9379</x>
+	</obstacle>
+	<obstacle beat="249" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>727.0044</x>
+	</obstacle>
+	<obstacle beat="249" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>727.0044</x>
+	</obstacle>
+	<obstacle beat="250" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>730.1888</x>
+	</obstacle>
+	<obstacle beat="250" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>730.1888</x>
+	</obstacle>
+	<obstacle beat="251" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>733.1373</x>
+	</obstacle>
+	<obstacle beat="252" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>736.3217</x>
+	</obstacle>
+	<obstacle beat="252" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>736.3217</x>
+	</obstacle>
+	<obstacle beat="253" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>739.2703</x>
+	</obstacle>
+	<obstacle beat="255" double="WhiteBlackDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>745.5214</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>747.1136</x>
+	</obstacle>
+	<obstacle beat="256" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>748.7059</x>
+	</obstacle>
+	<obstacle beat="256" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>748.7059</x>
+	</obstacle>
+	<obstacle beat="257" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>751.7724</x>
+	</obstacle>
+	<obstacle beat="258" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>754.721</x>
+	</obstacle>
+	<obstacle beat="259" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>757.9055</x>
+	</obstacle>
+	<obstacle beat="260" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>760.972</x>
+	</obstacle>
+	<obstacle beat="260" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>760.972</x>
+	</obstacle>
+	<obstacle beat="261" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>764.0386</x>
+	</obstacle>
+	<obstacle beat="261" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>764.0386</x>
+	</obstacle>
+	<obstacle beat="263" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>770.1719</x>
+	</obstacle>
+	<obstacle beat="264" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>773.1205</x>
+	</obstacle>
+	<obstacle beat="265" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>776.3047</x>
+	</obstacle>
+	<obstacle beat="265" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>776.3047</x>
+	</obstacle>
+	<obstacle beat="266" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>779.2537</x>
+	</obstacle>
+	<obstacle beat="267" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>782.3199</x>
+	</obstacle>
+	<obstacle beat="267" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>782.3199</x>
+	</obstacle>
+	<obstacle beat="268" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>785.3868</x>
+	</obstacle>
+	<obstacle beat="268" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>785.3868</x>
+	</obstacle>
+	<obstacle beat="269" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>788.5712</x>
+	</obstacle>
+	<obstacle beat="269" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>788.5712</x>
+	</obstacle>
+	<obstacle beat="270" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>791.4019</x>
+	</obstacle>
+	<obstacle beat="271" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>794.5861</x>
+	</obstacle>
+	<obstacle beat="272" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>797.6526</x>
+	</obstacle>
+	<obstacle beat="272" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>797.6526</x>
+	</obstacle>
+	<obstacle beat="273" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>800.7195</x>
+	</obstacle>
+	<obstacle beat="274" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>803.904</x>
+	</obstacle>
+	<obstacle beat="274" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>803.904</x>
+	</obstacle>
+	<obstacle beat="275" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>806.8523</x>
+	</obstacle>
+	<obstacle beat="275" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>806.8523</x>
+	</obstacle>
+	<obstacle beat="276" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>809.9188</x>
+	</obstacle>
+	<obstacle beat="276" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>809.9188</x>
+	</obstacle>
+	<obstacle beat="277" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>812.9857</x>
+	</obstacle>
+	<obstacle beat="277" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>812.9857</x>
+	</obstacle>
+	<obstacle beat="278" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>816.0519</x>
+	</obstacle>
+	<obstacle beat="279" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>819.0498</x>
+	</obstacle>
+	<obstacle beat="279" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>819.0498</x>
+	</obstacle>
+	<obstacle beat="280" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>822.2343</x>
+	</obstacle>
+	<obstacle beat="280" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>822.2343</x>
+	</obstacle>
+	<obstacle beat="281" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>825.1829</x>
+	</obstacle>
+	<obstacle beat="282" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>828.2496</x>
+	</obstacle>
+	<obstacle beat="282" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>828.2496</x>
+	</obstacle>
+	<obstacle beat="283" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>831.316</x>
+	</obstacle>
+	<obstacle beat="283" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>831.316</x>
+	</obstacle>
+	<obstacle beat="284" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>834.5009</x>
+	</obstacle>
+	<obstacle beat="285" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>837.3398</x>
+	</obstacle>
+	<obstacle beat="285" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>837.3398</x>
+	</obstacle>
+	<obstacle beat="286" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>840.5244</x>
+	</obstacle>
+	<obstacle beat="286" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>840.5244</x>
+	</obstacle>
+	<obstacle beat="287" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>843.5909</x>
+	</obstacle>
+	<obstacle beat="287" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>843.5909</x>
+	</obstacle>
+	<obstacle beat="288" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>846.6575</x>
+	</obstacle>
+	<obstacle beat="288" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>846.6575</x>
+	</obstacle>
+	<obstacle beat="289" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>849.606</x>
+	</obstacle>
+	<obstacle beat="290" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>852.7905</x>
+	</obstacle>
+	<obstacle beat="290" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>852.7905</x>
+	</obstacle>
+	<obstacle beat="291" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>855.975</x>
+	</obstacle>
+	<obstacle beat="292" double="Black">
+		<side>top</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>858.924</x>
+	</obstacle>
+	<obstacle beat="293" double="Black">
+		<side>top</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>861.9905</x>
+	</obstacle>
+	<obstacle beat="293" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>861.9905</x>
+	</obstacle>
+	<obstacle beat="294" double="White">
+		<side>bot</side>
+		<high>True</high>
+		<color>White</color>
+		<x>865.0568</x>
+	</obstacle>
+	<obstacle beat="295" double="White">
+		<side>bot</side>
+		<high>False</high>
+		<color>White</color>
+		<x>868.1233</x>
+	</obstacle>
+	<obstacle beat="296" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>871.0719</x>
+	</obstacle>
+	<obstacle beat="296" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>871.0719</x>
+	</obstacle>
+	<obstacle beat="297" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>874.2564</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>875.7307</x>
+	</obstacle>
+	<obstacle beat="297" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>874.2564</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>875.7307</x>
+	</obstacle>
+	<obstacle beat="298" double="BlackWhiteDouble">
+		<side>top</side>
+		<high>False</high>
+		<color>black</color>
+		<x>877.205</x>
+	</obstacle>
+	<obstacle>
+		<side>top</side>
+		<high>False</high>
+		<color>white</color>
+		<x>878.7974</x>
+	</obstacle>
+	<obstacle beat="298" double="WhiteBlackDouble">
+		<side>bot</side>
+		<high>False</high>
+		<color>white</color>
+		<x>877.205</x>
+	</obstacle>
+	<obstacle>
+		<side>bot</side>
+		<high>False</high>
+		<color>black</color>
+		<x>878.7974</x>
+	</obstacle>
+	<obstacle beat="299" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>880.3898</x>
+	</obstacle>
+	<obstacle beat="299" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>880.3898</x>
+	</obstacle>
+	<obstacle beat="300" double="White">
+		<side>top</side>
+		<high>True</high>
+		<color>White</color>
+		<x>883.3384</x>
+	</obstacle>
+	<obstacle beat="300" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>883.3384</x>
+	</obstacle>
+	<obstacle beat="301" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>886.4049</x>
+	</obstacle>
+	<obstacle beat="301" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>886.4049</x>
+	</obstacle>
+	<obstacle beat="302" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>889.4714</x>
+	</obstacle>
+	<obstacle beat="303" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>892.6559</x>
+	</obstacle>
+	<obstacle beat="303" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>892.6559</x>
+	</obstacle>
+	<obstacle beat="304" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>895.6046</x>
+	</obstacle>
+	<obstacle beat="305" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>898.789</x>
+	</obstacle>
+	<obstacle beat="305" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>898.789</x>
+	</obstacle>
+	<obstacle beat="306" double="Black">
+		<side>bot</side>
+		<high>True</high>
+		<color>Black</color>
+		<x>901.7376</x>
+	</obstacle>
+	<obstacle beat="307" double="White">
+		<side>top</side>
+		<high>False</high>
+		<color>White</color>
+		<x>904.9221</x>
+	</obstacle>
+	<obstacle beat="307" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>904.9221</x>
+	</obstacle>
+	<obstacle beat="311" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>917.211</x>
+	</obstacle>
+	<obstacle beat="314" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>926.5283</x>
+	</obstacle>
+	<obstacle beat="317" double="Black">
+		<side>bot</side>
+		<high>False</high>
+		<color>Black</color>
+		<x>935.6099</x>
+	</obstacle>
+</Beatmap>
