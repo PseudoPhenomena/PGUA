@@ -7,7 +7,7 @@ using UnityEngine;
 public class SpawnEvent : MonoBehaviour {
 
 	//This is a struct that defines the objects as read from the XML file
-	struct BeatObstacle
+	public struct BeatObstacle
 	{
 		public Vector3 spawnPoint;
 		public string color;
