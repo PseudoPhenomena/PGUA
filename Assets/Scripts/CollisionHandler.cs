@@ -17,6 +17,7 @@ public class CollisionHandler : MonoBehaviour {
 	//Determined at runtime
 	private ScoreKeeper ScoreKeeperScript;
 	private TokenPoolScript TokenManager;
+	private CharacterParticleManager ParticleManager;
 
 	////This is the dialogue manager we will do it with.
 	//private DialogueManager dm;
@@ -26,6 +27,7 @@ public class CollisionHandler : MonoBehaviour {
 		//dm = panel.GetComponent<DialogueManager>();
 		ScoreKeeperScript = ScoreKeeperObj.GetComponent<ScoreKeeper>();
 		TokenManager = TokenManagerObj.GetComponent<TokenPoolScript> ();
+		ParticleManager = GetComponent<CharacterParticleManager> ();
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -51,6 +53,8 @@ public class CollisionHandler : MonoBehaviour {
 			ScoreKeeperScript.SameColorHit();
 			//Destroy pickup
 			TokenManager.TokenDestroy(col.gameObject);
+			//Play pick up particle
+			ParticleManager.PlayPickup();
 		}
 		//If the object is white and the pickup is black
 		//MISMATCH
@@ -72,6 +76,8 @@ public class CollisionHandler : MonoBehaviour {
 			ScoreKeeperScript.SameColorHit();
 			//Destroy pickup
 			TokenManager.TokenDestroy(col.gameObject);
+			//Play pickup particle
+			ParticleManager.PlayPickup();
 		}
 	}
 }
