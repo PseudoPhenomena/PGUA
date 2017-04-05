@@ -8,6 +8,8 @@ public class DialogueParser : MonoBehaviour {
 
 	List<DialogueLine> lines;
 	List<DialogueLine> interruptions;
+
+	public string file;
 	/// <summary>
 	/// Here is a struct that defines the characteristics of a line of dialogue.
 	/// I'd like to give credit up front to the Indiana Universitie's Game Developers
@@ -40,7 +42,6 @@ public class DialogueParser : MonoBehaviour {
 		///Something along the format of CharacterName + DateNumber + .XML if we
 		///choose too.
 		///For now though the format for a .txt file will do.
-		string file = "Assets/Resources/TestScript";
 		Scene current = SceneManager.GetActiveScene();
 		string sceneNum = current.name;
 		sceneNum = Regex.Replace(sceneNum, "[^0-9]", "");
@@ -56,7 +57,8 @@ public class DialogueParser : MonoBehaviour {
 	private void LoadDialogue(string filename)
 	{
 		string line;
-		StreamReader r = new StreamReader(filename);
+		TextAsset script = Resources.Load(filename) as TextAsset;
+		StreamReader r = new StreamReader(Application.dataPath + "/Resources/"+filename);
 
 		using (r)
 		{
