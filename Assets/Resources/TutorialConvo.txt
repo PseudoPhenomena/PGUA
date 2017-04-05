@@ -1,0 +1,8 @@
+Mr. Bones;Oh Hehehellooooooooo there!!;0;R
+MC; Wh-what the!? ; 0 ; L
+Mr. Bones;No worries my friend! I'm just here to tell you what to do!;0;R
+MC; What to do...?;0;L
+Mr. Bones;Just listen, press A to raise the top character and D to raise the bottom one. And space to switch sides!;0;R
+Player; One more time...?:line,0; Okay...:line,6
+Mr. Bones;Alright, now get ready!
+Player;Start:scene,1;
