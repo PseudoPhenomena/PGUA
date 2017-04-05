@@ -18,6 +18,8 @@ public class TokenPoolScript : MonoBehaviour {
 		WhiteObs w = token.GetComponent<WhiteObs> ();
 		BlackObs b = token.GetComponent<BlackObs> ();
 
+		token.transform.GetChild(0).particleSystem.
+
 		// token is white
 		if (w != null && whiteQueue != null) 
 		{
