@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class Scenehandler : MonoBehaviour
 {
-    private void Start()
+    private void Awake()
     {
+        Debug.Log("Start");
         // if this isn't first time startup
         if (SceneLoadSettings.LoadSettings != null)
         {
@@ -32,12 +33,14 @@ public class Scenehandler : MonoBehaviour
         // currently on main menu /default
         else
         {
+            Debug.Log("default");
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("World Map", false);
         }
     }
 
     public void AdvanceScene()
     {
+        Debug.Log(SceneLoadSettings.LoadSettings.location);
         SceneManager.LoadScene(SceneLoadSettings.LoadSettings.location);
     }
 }

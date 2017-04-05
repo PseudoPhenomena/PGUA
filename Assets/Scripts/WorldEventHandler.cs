@@ -5,11 +5,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class WorldEventHandler : MonoBehaviour {
-    public Scenehandler sHandler;
-    public WorldCharAnimations location;
+    public GameObject SceneManagerObeject;
+    public GameObject AnimationHandler;
 
-	// Update is called once per frame
-	void Update () {
+    private Scenehandler sHandler;
+    private WorldCharAnimations location;
+    private void Start()
+    {
+        sHandler = SceneManagerObeject.GetComponent<Scenehandler>();
+        location = AnimationHandler.GetComponent<WorldCharAnimations>();
+    }
+
+    // Update is called once per frame
+    void Update () {
 
 		//This will eventually check where the player is
 		if (Input.GetButtonDown("Submit"))
@@ -52,6 +60,7 @@ public class WorldEventHandler : MonoBehaviour {
                 //default
                 SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
             }
+            sHandler.AdvanceScene();
         }
         else
             Debug.Log("No refference to {WorldCharAnimations} given to {WorldEventHandler}.");
