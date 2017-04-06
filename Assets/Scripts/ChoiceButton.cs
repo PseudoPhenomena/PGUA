@@ -36,7 +36,15 @@ public class ChoiceButton : MonoBehaviour {
         }
         else if (command == "scene")
         {
-            SceneManager.LoadScene("Playground");
+			SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings (
+				"Playground", 
+				true, 
+				SceneLoadSettings.CurrentSettings.npcName,
+				-1,
+				false);
+			
+			Debug.Log(SceneLoadSettings.LoadSettings.location);
+			SceneManager.LoadScene(SceneLoadSettings.LoadSettings.location);
         }
     }
 }

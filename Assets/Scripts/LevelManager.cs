@@ -21,6 +21,9 @@ public class LevelManager : MonoBehaviour {
 	//This is an arraylist to write player input to. This will help me map out the beatmap
 	ArrayList beatMap;
 
+	// score keeper ref
+	public ScoreKeeper sk;
+
 	//The filepath of the beatmap
 	string fileName;
 
@@ -78,8 +81,35 @@ public class LevelManager : MonoBehaviour {
 				} 
 			}
 
+			int highscore = DataManager.data.TopScore;
+
+			if (sk.score > highscore)
+				DataManager.data.TopScore = sk.score;
+
+			string character = SceneLoadSettings.CurrentSettings.npcName;
+			if (character != null) 
+			{
+				if (character == "Emo") 
+				{
+					DataManager.data.Emo++;
+				}
+				else if (character == "MrBones") 
+				{
+					DataManager.data.MrBones++;
+				}
+				else if (character == "Dere") 
+				{
+					DataManager.data.Dere++;
+				}
+				else if (character == "Jack") 
+				{
+					DataManager.data.Jack++;
+				}
+			}
+
 			//go to menu (this script should never not be on a scenehandler object)
-			this.gameObject.GetComponent<Scenehandler>().AdvanceScene();
+			Scenehandler sh = this.gameObject.GetComponent<Scenehandler> ();
+			sh.AdvanceScene();
 		}
 	}
 }
