@@ -1,5 +1,6 @@
-Name;Dialogue;Pose as int;Position (L or R)
-Koichi;Yes mam!;0;L
+
+
+Player;Start:scene;1Koichi;Yes mam!;0;L
 Jack;All you gotta do is Collect the white guys with the big white block, the black ones  with the other;1;R
 Jack;Press A to move the top character up. D to move the bottom character up. Space to swap their places. Got it!?;1;R
 Player;Nope...:line,0;Yes mam!:line,5
