@@ -147,6 +147,7 @@ public class SpawnEvent : MonoBehaviour {
 	private void loadXMLFromAssets()
 	{
 		xmlDoc = new XmlDocument();
+        Debug.Log("*****************Here is where the error was: " + getPath() + "*****************");
 		if (System.IO.File.Exists(getPath()))
 		{
 			xmlDoc.LoadXml(System.IO.File.ReadAllText(getPath()));
@@ -163,11 +164,11 @@ public class SpawnEvent : MonoBehaviour {
 		#if UNITY_EDITOR
 			return Application.dataPath + "/Resources/Music/" + _fileName + ".xml";
 		#elif UNITY_ANDROID
-			return Application.persistentDataPath+fileName;
+			return Application.persistentDataPath+filename;
 		#elif UNITY_IPHONE
-			return GetiPhoneDocumentsPath()+"/"+fileName;
+			return GetiPhoneDocumentsPath()+"/"+filename;
 		#else
-			return Application.dataPath + "/Resources/" + fileName;
+			return Application.dataPath + "/Resources/Music/" + filename + ".xml";
 		#endif
 	}
 
