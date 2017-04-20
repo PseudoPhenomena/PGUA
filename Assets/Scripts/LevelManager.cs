@@ -107,6 +107,8 @@ public class LevelManager : MonoBehaviour {
 				}
 			}
 
+			//Here, once the song is done playing display the score and if they made it on the leaderboard.
+
 			//go to menu (this script should never not be on a scenehandler object)
 			Scenehandler sh = this.gameObject.GetComponent<Scenehandler> ();
 			sh.AdvanceScene();
