@@ -10,6 +10,7 @@ public class DataManager : MonoBehaviour {
     // struct for all persistant data
 	public class PersistantData
     {
+
         // the amount of levels
         // a player has beaten for each person
         public int Jack    = 0;

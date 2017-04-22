@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
         playerTalking = false;
         parser = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
         lineNum = 0;
+        ShowDialogue();
     }
 
     // Update is called once per frame

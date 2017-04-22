@@ -64,13 +64,13 @@ public class Conductor : MonoBehaviour {
 
 	public void PlaySong()
 	{
-        if (song.isPlaying)
-        {
-            beatNumber = 0;
-        }
+		if (song.isPlaying)
+		{
+			beatNumber = 0;
+		}
 
 		startSong = AudioSettings.dspTime;
-        lastbeat = 0;
+		lastbeat = 0;
 		song.Play();
 	}
 

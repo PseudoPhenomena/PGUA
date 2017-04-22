@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -14,6 +15,9 @@ public class LevelManager : MonoBehaviour {
 	public Conductor conductor;
 	public GameObject toFollow1;
 	public GameObject ObjWithAudio;
+
+    //Reference to the leaderboard UI object.
+    public GameObject Scoreboard;
 
 	//using the audio handler to see if the level has ended
 	private new AudioSource audio;
@@ -33,20 +37,25 @@ public class LevelManager : MonoBehaviour {
 	private float bpm;
 	private int beat;
 	private string playerSpeed;
+    private bool end;//is the level over?
 
 	// Use this for initialization
 	void Start() {
+        Scoreboard.SetActive(false);
+
 		audio = ObjWithAudio.GetComponent<AudioSource>();
 		beatMap = new ArrayList();
 		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
 		bpm = conductor.bpm;
 		Debug.Log("Filepath: " + fileName);
-
+			   
 		//Stuff for writing to the beatmap
 		lastBeat = 0;
 		crotchet = 60 / bpm;
 		beat = 0;
+        end = false;
 	}
+	   
 	//Update is called once per frame
 	void Update()
 	{
@@ -66,6 +75,7 @@ public class LevelManager : MonoBehaviour {
 		if (!audio.isPlaying)
 		{
 			//Code to to file
+			//This block writes the beatmap that is used in the level editor
 			if (!File.Exists(fileName))
 			{
 				using (StreamWriter sw = new StreamWriter(fileName))
@@ -107,11 +117,20 @@ public class LevelManager : MonoBehaviour {
 				}
 			}
 
-			//Here, once the song is done playing display the score and if they made it on the leaderboard.
+            if (!Scoreboard.activeInHierarchy && !end)
+            {
+                Scoreboard.SetActive(true);
+                end = true;
 
-			//go to menu (this script should never not be on a scenehandler object)
-			Scenehandler sh = this.gameObject.GetComponent<Scenehandler> ();
-			sh.AdvanceScene();
+            }
+            if (!Scoreboard.activeInHierarchy && end)
+            {
+                //go to menu (this script should never not be on a scenehandler object)
+                Scenehandler sh = this.gameObject.GetComponent<Scenehandler>();
+                sh.AdvanceScene(); 
+            }
 		}
 	}
+
+	
 }

@@ -54,7 +54,7 @@ public class SpawnEvent : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		audioBeat.GetComponent<BeatDetection>().CallBackFunction = MyCallbackEventHandler;
+		//audioBeat.GetComponent<BeatDetection>().CallBackFunction = MyCallbackEventHandler;
 		xSpot = characterReference.transform.position.x + 10;
 
 		loadXMLFromAssets();
