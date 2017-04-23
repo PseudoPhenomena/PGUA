@@ -16,8 +16,8 @@ public class LevelManager : MonoBehaviour {
 	public GameObject toFollow1;
 	public GameObject ObjWithAudio;
 
-    //Reference to the leaderboard UI object.
-    public GameObject Scoreboard;
+	//Reference to the leaderboard UI object.
+	public GameObject Scoreboard;
 
 	//using the audio handler to see if the level has ended
 	private new AudioSource audio;
@@ -37,11 +37,11 @@ public class LevelManager : MonoBehaviour {
 	private float bpm;
 	private int beat;
 	private string playerSpeed;
-    private bool end;//is the level over?
+	private bool end;//is the level over?
 
 	// Use this for initialization
 	void Start() {
-        Scoreboard.SetActive(false);
+		Scoreboard.SetActive(false);
 
 		audio = ObjWithAudio.GetComponent<AudioSource>();
 		beatMap = new ArrayList();
@@ -53,7 +53,7 @@ public class LevelManager : MonoBehaviour {
 		lastBeat = 0;
 		crotchet = 60 / bpm;
 		beat = 0;
-        end = false;
+		end = false;
 	}
 	   
 	//Update is called once per frame
@@ -111,24 +111,25 @@ public class LevelManager : MonoBehaviour {
 				{
 					DataManager.data.Dere++;
 				}
-				else if (character == "Jack") 
+				else if (character == "Jean") 
 				{
-					DataManager.data.Jack++;
+					DataManager.data.Jean++;
 				}
 			}
 
-            if (!Scoreboard.activeInHierarchy && !end)
-            {
-                Scoreboard.SetActive(true);
-                end = true;
+			if (!Scoreboard.activeInHierarchy && !end)
+			{
+				Scoreboard.SetActive(true);
+				Scoreboard.GetComponent<LeaderBoard>().UpdateBoard(sk.score);
+				end = true;
 
-            }
-            if (!Scoreboard.activeInHierarchy && end)
-            {
-                //go to menu (this script should never not be on a scenehandler object)
-                Scenehandler sh = this.gameObject.GetComponent<Scenehandler>();
-                sh.AdvanceScene(); 
-            }
+			}
+			if (!Scoreboard.activeInHierarchy && end)
+			{
+				//go to menu (this script should never not be on a scenehandler object)
+				Scenehandler sh = this.gameObject.GetComponent<Scenehandler>();
+				sh.AdvanceScene(); 
+			}
 		}
 	}
 

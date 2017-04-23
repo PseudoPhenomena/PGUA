@@ -147,7 +147,7 @@ public class SpawnEvent : MonoBehaviour {
 	private void loadXMLFromAssets()
 	{
 		xmlDoc = new XmlDocument();
-        Debug.Log("*****************Here is where the error was: " + getPath() + "*****************");
+		Debug.Log("*****************Here is where the error was: " + getPath() + "*****************");
 		if (System.IO.File.Exists(getPath()))
 		{
 			xmlDoc.LoadXml(System.IO.File.ReadAllText(getPath()));
