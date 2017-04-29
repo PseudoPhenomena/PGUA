@@ -6,6 +6,9 @@ public class SceneLoadSettings : MonoBehaviour {
 	public static Settings LoadSettings;
 	public static Settings CurrentSettings;
 
+    /// where the player was last in the world map
+    public static string lastLocation = "Graveyard";
+
 	// settings passed between scenes
 	public class Settings
 	{

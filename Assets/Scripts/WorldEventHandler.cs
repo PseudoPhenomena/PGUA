@@ -39,27 +39,8 @@ public class WorldEventHandler : MonoBehaviour {
     {
         if (location != null)
         {
-            if (location.current == 0) // school
-            {
-                // how i intend it to work
-                //SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("School Conversation", false, "Emo");
+            string loc = location.CurrentLocation;
 
-                // for now
-                SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
-            }
-            else if (location.current == 1) // graveyard
-            {
-                // how i intend it to work
-                //SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Graveyard Conversation", false, "Emo");
-
-                // for now
-                SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
-            }
-            else
-            {
-                //default
-                SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
-            }
             sHandler.AdvanceScene();
         }
         else
