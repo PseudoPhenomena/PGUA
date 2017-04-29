@@ -1,16 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ConversationLevelSettingsManager : MonoBehaviour {
+    public GameObject SchoolBackground;
+    public GameObject GraveyardBackground;
+        
+    public void SetUpConversation()
+    {
+        string npcName = SceneLoadSettings.CurrentSettings.npcName;
+        string loc = SceneLoadSettings.CurrentSettings.location;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        if (SchoolBackground != null && GraveyardBackground != null)
+        {
+            if (npcName == "Mr Bones")
+            {
+                GraveyardBackground.SetActive(true);
+                SchoolBackground.SetActive(false);
+            }
+            else
+            {
+                GraveyardBackground.SetActive(false);
+                SchoolBackground.SetActive(true);
+            }
+        }
+    }
 }

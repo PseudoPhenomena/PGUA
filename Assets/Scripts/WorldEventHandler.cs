@@ -39,11 +39,34 @@ public class WorldEventHandler : MonoBehaviour {
     {
         if (location != null)
         {
+            // remember where the player is
             string loc = location.CurrentLocation;
+            SceneLoadSettings.lastLocation = loc;
+
+            SetNextScene();
 
             sHandler.AdvanceScene();
         }
         else
             Debug.Log("No refference to {WorldCharAnimations} given to {WorldEventHandler}.");
+    }
+
+    // progression
+    private void SetNextScene()
+    {
+        // they haven't played the tutorial
+        if(DataManager.data.MrBones == 0)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Mr Bones");
+        }
+
+        // more if else's here to do a specific level
+
+        // default level
+        else
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
+        }
+
     }
 }

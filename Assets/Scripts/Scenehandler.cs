@@ -30,9 +30,14 @@ public class Scenehandler : MonoBehaviour
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Main Menu", false);
         }
         // currently on main menu /default
-        else
+        else if (SceneLoadSettings.CurrentSettings.location == "Main Menu")
         {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("World Map", false);
+        }
+        else if(SceneLoadSettings.CurrentSettings.location == "Conversation")
+        {
+            ConversationLevelSettingsManager clsm = GetComponent<ConversationLevelSettingsManager>();
+            clsm.SetUpConversation();
         }
     }
 

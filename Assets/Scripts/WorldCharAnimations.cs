@@ -213,6 +213,7 @@ public class WorldCharAnimations : MonoBehaviour {
     {
         float tollerance = .0001f;
 
+        // distance from a to b is < .0001f in any direction
         bool x = (a.position.x - b.position.x < tollerance) && (b.position.x - a.position.x < tollerance);
         bool y = (a.position.y - b.position.y < tollerance) && (b.position.y - a.position.y < tollerance);
         bool z = (a.position.z - b.position.z < tollerance) && (b.position.z - a.position.z < tollerance);
