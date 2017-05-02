@@ -15,7 +15,16 @@ public class LevelManager : MonoBehaviour {
 	public Conductor conductor;
 	public GameObject toFollow1;
 	public GameObject ObjWithAudio;
+    public GameObject BeatList;
 
+    // what song to play for each situation
+    private Dictionary<string, string> levelMap = new Dictionary<string, string>()
+    {
+        // first level with mrbones is the tutorial
+        {"MrBones 0", "tutorial song name here" },
+        {"Jean 0", "first jean song name here" },
+        // please fill these out, i don't know the names of the songs or i would =(
+    };
 	//Reference to the leaderboard UI object.
 	public GameObject Scoreboard;
 
@@ -41,10 +50,23 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start() {
-		Scoreboard.SetActive(false);
+        /// dynamic loading stuff
+        // this should get you the npc's name
+        string key = SceneLoadSettings.CurrentSettings.npcName;
+        // this should add their progress with that character to the key
+        key += " " + DataManager.data.GetProgress(key);
 
+        // this should fetch a gameobject with the right song on it
+        //string songName = levelMap[key];
+        //GameObject song = BeatList.transform.Find(songName).gameObject;
+
+        Scoreboard.SetActive(false);
+
+        //audio = song.GetComponent<AudioSource>(); 
 		audio = ObjWithAudio.GetComponent<AudioSource>();
 		beatMap = new ArrayList();
+
+        // this should probably make use of songName to get the file path
 		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
 		bpm = conductor.bpm;
 		Debug.Log("Filepath: " + fileName);
@@ -66,7 +88,7 @@ public class LevelManager : MonoBehaviour {
 			beat++;
 			lastBeat += crotchet;
 
-			beatMap.Add(toFollow1.transform.position.x + ";" + beat);
+			//beatMap.Add(toFollow1.transform.position.x + ";" + beat);
 		}
 	}
 

@@ -112,20 +112,17 @@ public class LeaderBoard : MonoBehaviour {
 		//Parse again to get name and score values.
 		for (int i = 0; i < LBLines.Length; i++)
 		{
-
 			string[] values = Regex.Split(LBLines[i], ";");
 
 			string text = values[0] + " " + values[1];
 			//Creating and adding a rank to the list.
 			Rank newRank = new Rank(int.Parse(values[0]), values[1]);
 			rankList.Add(newRank);
-
 		}
         
 		//Iterate over the list 
 		for(int i = 0; i < rankList.Count; i++)
 		{
-			
 			//comparing the score given to the score at each rank
 			if (rankList[i].score <= newScore)
 			{

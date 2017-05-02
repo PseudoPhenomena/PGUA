@@ -10,7 +10,24 @@ public class DataManager : MonoBehaviour {
 	// struct for all persistant data
 	public class PersistantData
 	{
+        /// <summary>
+        /// way of looking up progress with a string of a characters name
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public string GetProgress(string name)
+        {
+            if (name == "Jean")
+            { return Jean.ToString(); }
+            else if (name == "Emo")
+            { return Emo.ToString(); }
+            else if (name == "MrBones")
+            { return MrBones.ToString(); }
+            else if (name == "Dere")
+            { return Dere.ToString(); }
 
+            return "0";
+        }
 		// the amount of levels
 		// a player has beaten for each person
 		public int Jean    = 0;

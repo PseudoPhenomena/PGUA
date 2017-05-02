@@ -41,9 +41,10 @@ public class CollisionHandler : MonoBehaviour {
 
 			//decrease score
 			ScoreKeeperScript.OtherColorHit();
-
-			// cycle token
-			TokenManager.TokenDestroy(col.gameObject);
+            // play miss effect
+            ParticleManager.PlayMiss();
+            // cycle token
+            TokenManager.TokenDestroy(col.gameObject);
 		}
 		//if the object is black and the pickup is black
 		//MATCH
@@ -64,9 +65,10 @@ public class CollisionHandler : MonoBehaviour {
 
 			//Decrease Score
 			ScoreKeeperScript.OtherColorHit();
-
-			//Destroy pickup
-			TokenManager.TokenDestroy(col.gameObject);
+            // play miss effect
+            ParticleManager.PlayMiss();
+            //Destroy pickup
+            TokenManager.TokenDestroy(col.gameObject);
 		}
 		//If the object is white and the pickup is white
 		//MATCH

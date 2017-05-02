@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour {
 	public int xOffset;
 
 	//Midpoint between them that the camera stays focused on
-	private float midpoint;
+	private Vector3 midpoint;
 
 	//Units to keep from players
 	public float zoomFactor;
@@ -34,13 +34,14 @@ public class CameraFollow : MonoBehaviour {
 		Vector3 toAdd = new Vector3(xOffset, 0, 0);
 		offset = transform.position + toAdd;
 
-		midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2).y;
-	}
-	//Update is called once per frame
-	void Update()
+        midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
+    }
+    //Update is called once per frame
+    void Update()
 	{
-		Vector3 midline = new Vector3(toFollow1.transform.position.x, midpoint, toFollow1.transform.position.z);
-		transform.position = midline + offset;
+        midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
+
+        transform.position = midpoint + offset;
 
 	}
 }

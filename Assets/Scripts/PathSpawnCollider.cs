@@ -13,13 +13,14 @@ public class PathSpawnCollider : MonoBehaviour {
 	public GameObject Path;
 	public GameObject NextPlatPointer;
 
-	//Adjustment amount is just 3x the lenght of the platform
-	private Vector3 AdjustmentAmount = new Vector3(78, 0, 0);
+    //Adjustment amount is just 3x the lenght of the platform
+    public int AdjustmentX = 0;
+	private Vector3 AdjustmentVector = new Vector3(0, 0, 0);
 
 
 	// Use this for initialization
 	void Start () {
-		
+        AdjustmentVector.x = AdjustmentX;
 	}
 	
 	// Update is called once per frame
@@ -34,7 +35,7 @@ public class PathSpawnCollider : MonoBehaviour {
 			//Now with object pooling!
 			if(NextPlatPointer != null)
 			{
-				NextPlatPointer.transform.position = NextPlatPointer.transform.position + AdjustmentAmount;
+				NextPlatPointer.transform.position = NextPlatPointer.transform.position + AdjustmentVector;
 			}
 			////Where the next point should be spawned.
 			//Vector3 vector = new Vector3(this.transform.position.x + 26,0,0);

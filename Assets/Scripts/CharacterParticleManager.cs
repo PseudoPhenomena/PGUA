@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CharacterParticleManager : MonoBehaviour {
 
-	public ParticleSystem Pickupflash;
-	public ParticleSystem Pickupspark;
-	public ParticleSystem Pickuphighlight;
+	public ParticleSystem PickupSpark;
+	public ParticleSystem PickupOuter;
+	public ParticleSystem PickupInner;
 
 	public ParticleSystem Aura;
 	public ParticleSystem Auraburst;
 	public ParticleSystem Auraspark;
 
-	private ParticleSystem.EmitParams particleSettings = new ParticleSystem.EmitParams ();
+    public ParticleSystem MissFlash;
+    public ParticleSystem MissSpark;
+    public ParticleSystem MissHighlight;
+
+
+    private ParticleSystem.EmitParams particleSettings = new ParticleSystem.EmitParams ();
 
 	private void Start()
 	{
@@ -22,23 +27,23 @@ public class CharacterParticleManager : MonoBehaviour {
 	public void PlayPickup()
 	{
 		// null check
-		if (Pickupflash != null && Pickupspark != null && Pickuphighlight) 
+		if (PickupSpark != null && PickupOuter != null && PickupInner) 
 		{
-			Pickupflash.Emit (particleSettings, 1);
-			Pickupspark.Emit (particleSettings, 100);
-			Pickuphighlight.Emit (particleSettings, 30);
+			PickupSpark.Emit (particleSettings, 50);
+			PickupOuter.Emit (particleSettings, 2);
+			PickupInner.Emit (particleSettings, 2);
 
-			if (Pickupflash.isStopped) 
+			if (PickupSpark.isStopped) 
 			{
-				Pickupflash.Play ();
+				PickupSpark.Play ();
 			}
-			if (Pickupspark.isStopped) 
+			if (PickupOuter.isStopped) 
 			{
-				Pickupspark.Play ();
+				PickupOuter.Play ();
 			}
-			if (Pickuphighlight.isStopped) 
+			if (PickupInner.isStopped) 
 			{
-				Pickuphighlight.Play ();
+				PickupInner.Play ();
 			}
 		} 
 		else 
@@ -46,9 +51,35 @@ public class CharacterParticleManager : MonoBehaviour {
 			Debug.Log ("Character does not have a pick up particle designated.");
 		}
 	}
+    public void PlayMiss()
+    {
+        // null check
+        if (MissFlash != null && MissSpark != null && MissHighlight)
+        {
+            MissFlash.Emit(particleSettings, 1);
+            MissSpark.Emit(particleSettings, 50);
+            MissHighlight.Emit(particleSettings, 30);
 
-	// Starts the player's aura particle if it isn't playing
-	public void StartAura()
+            if (MissFlash.isStopped)
+            {
+                PickupSpark.Play();
+            }
+            if (MissSpark.isStopped)
+            {
+                PickupOuter.Play();
+            }
+            if (MissHighlight.isStopped)
+            {
+                PickupInner.Play();
+            }
+        }
+        else
+        {
+            Debug.Log("Character does not have a miss particle designated.");
+        }
+    }
+    // Starts the player's aura particle if it isn't playing
+    public void StartAura()
 	{
 		if (Aura != null && Auraburst != null && Auraspark != null) 
 		{
