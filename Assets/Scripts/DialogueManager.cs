@@ -103,7 +103,14 @@ public class DialogueManager : MonoBehaviour
             Button b = button.GetComponent<Button>();
             ChoiceButton cb = button.GetComponent<ChoiceButton>();
             cb.SetText(options[i].Split(':')[0]);
-            cb.option = options[i].Split(':')[1];
+            try // no questions
+            {
+                cb.option = options[i].Split(':')[1];
+            }
+            catch (System.Exception)
+            {
+                return; 
+            }
             cb.box = this;
             b.transform.SetParent(this.transform);
             b.transform.localPosition = new Vector3(0, -25 + (i * 50));
