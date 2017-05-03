@@ -1,0 +1,6 @@
+Jean;Hello little robot... boy?;0;R
+MC; He-hello ; 0 ; L
+Jean;How interesting! To think you'd see a robot like you in this day and age...;0;R
+MC; What does that mean?;0;L
+Jean;No worries. It's nothing... Say... How about we walk and talk;0;R
+Player; Okay...:scene,1

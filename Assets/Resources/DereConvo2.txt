@@ -1,0 +1,6 @@
+Dere;H-Hey!;0;R
+MC; What's up!? ; 0 ; L
+Dere;I have a new game I want to show you!;0;R
+MC; Oh? What kind?;0;L
+Dere;It's... It's a dating sim...;0;R
+Player;A dating sim...?:scene,1;

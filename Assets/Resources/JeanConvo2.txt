@@ -1,0 +1,6 @@
+Jean;Hellooooo my robot friend!;0;R
+MC; Hello Jean ; 0 ; L
+Jean;My friend! How goes things?;0;R
+MC; Much better thank you.;0;L
+Jean;Good to hear! Perhaps, if you have the time. You'd like to chat again?;0;R
+Player;Of Course!:scene,1;

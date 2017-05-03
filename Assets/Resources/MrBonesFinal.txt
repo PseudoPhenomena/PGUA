@@ -1,0 +1,8 @@
+Mr. Bones;Oh Hehehellooooooooo there!!;0;R
+MC; Wh-what the!? ; 0 ; L
+Mr. Bones;My friend you've made it to the end!;0;R
+MC; Huh!?;0;L
+Mr. Bones;Just ask yourself one question my friend! Are you ready?;0;R
+MC; Ready to what!?;0;L
+Mr. Bones;TO DIE!;0;L
+Player;Nope.:scene,1;

@@ -1,0 +1,5 @@
+MC; Oh, Excuse me... ; 0 ; L
+Dere;...Don't worry...;0;R
+MC; I didn't see you there... What are you doing?;0;L
+Dere;Games...;0;R
+Player;Tell me more...:scene,1;
