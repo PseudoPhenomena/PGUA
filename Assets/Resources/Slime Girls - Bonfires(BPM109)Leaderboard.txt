@@ -1,0 +1,10 @@
+30000;Hayden
+20000;Hayden
+10000;Hayden
+5000;Hayden
+3000;Hayden
+2000;Hayden
+1200;
+1200;
+1000;Hayden
+500;Hayden

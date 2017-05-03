@@ -107,19 +107,20 @@ public class LeaderBoard : MonoBehaviour {
 		//Read the text asset.
 		string lb = leaderBoard.text;
 		string[] LBLines = Regex.Split(lb, @"\n");
-
-
 		//Parse again to get name and score values.
 		for (int i = 0; i < LBLines.Length; i++)
 		{
-			string[] values = Regex.Split(LBLines[i], ";");
+			if (LBLines[i].Length != 0)
+			{
+				string[] values = Regex.Split(LBLines[i], ";");
 
-			string text = values[0] + " " + values[1];
-			//Creating and adding a rank to the list.
-			Rank newRank = new Rank(int.Parse(values[0]), values[1]);
-			rankList.Add(newRank);
+				string text = values[0] + " " + values[1];
+				//Creating and adding a rank to the list.
+				Rank newRank = new Rank(int.Parse(values[0]), values[1].TrimEnd('\r', '\n'));
+				rankList.Add(newRank); 
+			}
 		}
-        
+		
 		//Iterate over the list 
 		for(int i = 0; i < rankList.Count; i++)
 		{
@@ -147,15 +148,16 @@ public class LeaderBoard : MonoBehaviour {
 			newText.text = r.name + " : " + r.score;
 		}
 
-        //And save it to the text file
-        Debug.Log(fileName);
-        Debug.Log(File.Exists(Application.dataPath + "/Resources/" + fileName + ".txt"));
+		//And save it to the text file
+		Debug.Log(fileName);
+		Debug.Log(File.Exists(Application.dataPath + "/Resources/" + fileName + ".txt"));
 		if (File.Exists(Application.dataPath + "/Resources/" + fileName + ".txt"))
 		{
 			File.Delete(Application.dataPath + "/Resources/" + fileName + ".txt");
 		}
 		using (StreamWriter writer = new StreamWriter(Application.dataPath + "/Resources/" + fileName + ".txt"))
 		{
+			Debug.Log(rankList.Count);
 			foreach (Rank r in rankList)
 			{
 				writer.WriteLine(r.score + ";" + r.name);

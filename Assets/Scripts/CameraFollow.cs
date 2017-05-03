@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour {
 	public GameObject toFollow2;
 
 	//Variable to adjust the x offset of the camera.
-	public int xOffset;
+	public float offset;
 
 	//Midpoint between them that the camera stays focused on
 	private Vector3 midpoint;
@@ -22,26 +22,23 @@ public class CameraFollow : MonoBehaviour {
 	//Units to keep from players
 	public float zoomFactor;
 	public float followTimeDelta;
-
-	//Camera offset variable
-	private Vector3 offset;
-
+    
 	//Reference to the character object
 	public GameObject character;
 
 	// Use this for initialization
 	void Start() {
-		Vector3 toAdd = new Vector3(xOffset, 0, 0);
-		offset = transform.position + toAdd;
+		//Vector3 toAdd = new Vector3(speed, 0, 0);
+		//offset = transform.position + toAdd;
 
-        midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
+  //      midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
     }
     //Update is called once per frame
     void Update()
 	{
-        midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
+        //midpoint = ((toFollow1.transform.position + toFollow2.transform.position) / 2);
 
-        transform.position = midpoint + offset;
+        transform.position = new Vector3(toFollow1.transform.position.x + offset, 6.08f, -13.24f);
 
 	}
 }

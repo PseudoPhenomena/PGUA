@@ -27,12 +27,12 @@ public class SpawnEvent : MonoBehaviour {
 	///These are kind of the markers for where we want to spawn, what they actually
 	///are, are a spot just ahead of the players where the obstacles should spawn.
 	public GameObject TopChar;
-    public GameObject BotChar;
+	public GameObject BotChar;
 
-    /// Position vectors of the top and bottom character
-    /// by adjusting the x, you get a point in their path
-    private Vector3 topAdj;
-    private Vector3 botAdj;
+	/// Position vectors of the top and bottom character
+	/// by adjusting the x, you get a point in their path
+	private Vector3 topAdj;
+	private Vector3 botAdj;
 
 	//The objects we wish to create when spawnEnemy is called.
 	public GameObject whiteObs;
@@ -63,11 +63,11 @@ public class SpawnEvent : MonoBehaviour {
 		//audioBeat.GetComponent<BeatDetection>().CallBackFunction = MyCallbackEventHandler;
 		xSpot = TopChar.transform.position.x + 10;
 
-        topAdj = TopChar.transform.position;
-        topAdj.x = 0;
+		topAdj = TopChar.transform.position;
+		topAdj.x = 0;
 
-        botAdj = BotChar.transform.position;
-        botAdj.x = 0;
+		botAdj = BotChar.transform.position;
+		botAdj.x = 0;
 
 		loadXMLFromAssets();
 		readXml();
@@ -108,20 +108,20 @@ public class SpawnEvent : MonoBehaviour {
 
 			if (tempObstacle.side.Equals("top") && tempObstacle.high.Equals("False"))
 			{
-                tempObstacle.spawnPoint = topAdj + new Vector3(x, 0, 0);
-            }
-            else if (tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("False"))
+				tempObstacle.spawnPoint = topAdj + new Vector3(x, 0, 0);
+			}
+			else if (tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("False"))
 			{
-                tempObstacle.spawnPoint = botAdj + new Vector3(x, 0, 0);
-            }
-            else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("True"))
+				tempObstacle.spawnPoint = botAdj + new Vector3(x, 0, 0);
+			}
+			else if(tempObstacle.side.Equals("top") && tempObstacle.high.Equals("True"))
 			{
-                tempObstacle.spawnPoint = topAdj + new Vector3(x, 0, 0);
-            }
+				tempObstacle.spawnPoint = topAdj + new Vector3(x, 2.0f, 0);
+			}
 			else if(tempObstacle.side.Equals("bot") && tempObstacle.high.Equals("True"))
 			{
-                tempObstacle.spawnPoint = botAdj + new Vector3(x, 0, 0);
-            }
+				tempObstacle.spawnPoint = botAdj + new Vector3(x, 2.0f, 0);
+			}
 
 			//A method call to a test method that displays the info in tempObstacle
 			//displayData(tempObstacle);

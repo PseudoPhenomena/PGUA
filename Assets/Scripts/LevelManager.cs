@@ -13,29 +13,27 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
 	public Conductor conductor;
-    /// <summary>
-    /// Reference to the parent of all the different faces
-    /// on the ui; "CuteFacePanel"
-    /// </summary>
-    public GameObject UIFaces;
+	/// <summary>
+	/// Reference to the parent of all the different faces
+	/// on the ui; "CuteFacePanel"
+	/// </summary>
+	public GameObject UIFaces;
 	public GameObject toFollow1;
 	public GameObject ObjWithAudio;
-    public GameObject BeatList;
+	public GameObject BeatList;
 
-    // what song to play for each situation
-    private Dictionary<string, string> levelMap = new Dictionary<string, string>()
-    {
-        // first level with mrbones is the tutorial
-        {"Mr Bones 0", "tutorial song name here" },
-        {"Jean 0", "first jean song name here" },
-        {"Emo 0", "" },
-        {"Dere 0", "" },
-        {"Mr Bones 1", "" },
-        {"Jean 1", "" },
-        {"Emo 1", "" },
-        {"Dere 1", "" },
-        // please fill these out, i don't know the names of the songs or i would =(
-    };
+	// what song to play for each situation
+	private Dictionary<string, string> levelMap = new Dictionary<string, string>()
+	{
+		// first level with mrbones is the tutorial
+		{"Mr Bones 0", "Slime Girls - Bonfires(BPM109)" },
+		{"Jean 0", "Ride on Shooting Star(137bpm)" },
+		{"Emo 0", "Prom Night(124bpm)" },
+		{"Mr Bones 1", "Chase(BPM225)" },
+		{"Jean 1", "battlecry-nujabes(100bpm)" },
+		{"Emo 1", "omniboi - Nice Dream - 06 Jollipop(128BPM)" },
+		// please fill these out, i don't know the names of the songs or i would =(
+	};
 	//Reference to the leaderboard UI object.
 	public GameObject Scoreboard;
 
@@ -61,44 +59,44 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start() {        
-        // turn off scoreboard
-        Scoreboard.SetActive(false);
+		// turn off scoreboard
+		Scoreboard.SetActive(false);
 
-        // put up the right face
-        ChangeFacePanel();
+		// put up the right face
+		ChangeFacePanel();
 
-        // this should get you the npc's name
-        string key = SceneLoadSettings.CurrentSettings.npcName;
-        // this should add their progress with that character to the key 
-        //(if name doesn't have stored data, returns "0")
-        key += " " + DataManager.data.GetProgress(key);
+		// this should get you the npc's name
+		string key = SceneLoadSettings.CurrentSettings.npcName;
+		// this should add their progress with that character to the key 
+		//(if name doesn't have stored data, returns "0")
+		key += " " + DataManager.data.GetProgress(key);
 
-        // if this key has a song attached to it
-        if (levelMap.ContainsKey(key))
-        {
-            // this should fetch a gameobject with the right song on it
-            string songName = levelMap[key];
-            GameObject song = BeatList.transform.Find(songName).gameObject;
+		// if this key has a song attached to it
+		if (levelMap.ContainsKey(key))
+		{
+			// this should fetch a gameobject with the right song on it
+			string songName = levelMap[key];
+			GameObject song = BeatList.transform.Find(songName).gameObject;
 
-            audio = song.GetComponent<AudioSource>(); 
-            beatMap = new ArrayList();
+			audio = song.GetComponent<AudioSource>(); 
+			beatMap = new ArrayList();
 
-            if (audio != null)
-            {
-                // this should probably make use of songName to get the file path
-                fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
-                bpm = conductor.bpm;
-                Debug.Log("Dynamic Filepath: " + fileName);
-            }
-            else
-            {
-                DefaultLevelSetup();
-            }
-        }
-        else
-        {
-            DefaultLevelSetup();
-        }
+			if (audio != null)
+			{
+				// this should probably make use of songName to get the file path
+				fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
+				bpm = conductor.bpm;
+				Debug.Log("Dynamic Filepath: " + fileName);
+			}
+			else
+			{
+				DefaultLevelSetup();
+			}
+		}
+		else
+		{
+			DefaultLevelSetup();
+		}
 			   
 		//Stuff for writing to the beatmap
 		lastBeat = 0;
@@ -107,43 +105,43 @@ public class LevelManager : MonoBehaviour {
 		end = false;
 	}
 
-    private void DefaultLevelSetup()
-    {
-        //audio = song.GetComponent<AudioSource>(); 
-        audio = ObjWithAudio.GetComponent<AudioSource>();
-        beatMap = new ArrayList();
+	private void DefaultLevelSetup()
+	{
+		//audio = song.GetComponent<AudioSource>(); 
+		audio = ObjWithAudio.GetComponent<AudioSource>();
+		beatMap = new ArrayList();
 
-        // this should probably make use of songName to get the file path
-        fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
-        bpm = conductor.bpm;
-        Debug.Log("Static Filepath: " + fileName);
-    }
+		// this should probably make use of songName to get the file path
+		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
+		bpm = conductor.bpm;
+		Debug.Log("Static Filepath: " + fileName);
+	}
 
-    private void ChangeFacePanel()
-    {
-        string name = SceneLoadSettings.CurrentSettings.npcName;
-        GameObject face = null;
-        // try to find a face to match the name of the npc
-        if (name.Length >= 1)
-        {
-            face = UIFaces.transform.Find(SceneLoadSettings.CurrentSettings.npcName).gameObject;
-        }
+	private void ChangeFacePanel()
+	{
+		string name = SceneLoadSettings.CurrentSettings.npcName;
+		GameObject face = null;
+		// try to find a face to match the name of the npc
+		if (name.Length >= 1)
+		{
+			face = UIFaces.transform.Find(SceneLoadSettings.CurrentSettings.npcName).gameObject;
+		}
 
-        GameObject defaultFace = UIFaces.transform.Find("Default").gameObject;
+		GameObject defaultFace = UIFaces.transform.Find("Default").gameObject;
 
-        // if none is found
-        if (face == null)
-        {
-            // go with our default image from before
-            face = defaultFace;
-        }
+		// if none is found
+		if (face == null)
+		{
+			// go with our default image from before
+			face = defaultFace;
+		}
 
-        //defaultFace.SetActive(false);
-        face.SetActive(true);
-    }
+		//defaultFace.SetActive(false);
+		face.SetActive(true);
+	}
 
-    //Update is called once per frame
-    void Update()
+	//Update is called once per frame
+	void Update()
 	{
 		if(conductor.songPosition > lastBeat + crotchet)
 		{

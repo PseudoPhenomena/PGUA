@@ -51,12 +51,12 @@ public class CharacterMovement : MonoBehaviour {
 	void Update() {
 
 		topDirection = new Vector3(1, 0, 0);
-		topDirection = transform.TransformDirection(topDirection);
-		topDirection *= speed;
+        topDirection = transform.TransformDirection(topDirection);
+        topDirection *= speed;
 
 		botDirection = new Vector3(1, 0, 0);
-		botDirection = transform.TransformDirection(botDirection);
-		botDirection *= speed;
+        botDirection = transform.TransformDirection(botDirection);
+        botDirection *= speed;
 
 		//If space is pressed, swap the players
 		if (Input.GetButtonDown("Switch"))
@@ -76,7 +76,7 @@ public class CharacterMovement : MonoBehaviour {
 			tPlayer.transform.position -= jump;
 		}
 		//Update Top player
-		tPlayer.Move(topDirection * Time.deltaTime);
+		//tPlayer.Move(topDirection * Time.deltaTime);
 
 
 		//JumpCode
@@ -91,9 +91,14 @@ public class CharacterMovement : MonoBehaviour {
 			bPlayer.transform.position -= jump;
 		}
 		//Update Bot player
-		bPlayer.Move(botDirection * Time.deltaTime);
+		//bPlayer.Move(botDirection * Time.deltaTime);
 	}  
-	  
+	
+    void FixedUpdate()
+    {
+        tPlayer.Move(topDirection * Time.deltaTime);
+        bPlayer.Move(botDirection * Time.deltaTime);
+    }
 	/// <summary>
 	/// There were a few implementations to consider for this method.
 	/// The one I decided to go with should work as follows.
