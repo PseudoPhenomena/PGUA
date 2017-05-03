@@ -30,17 +30,13 @@ public class PathSpawnCollider : MonoBehaviour {
 
 	void OnTriggerEnter(Collider hit)
 	{
-		if (hit.gameObject.tag == "WhitePlayer")
+		if (hit.gameObject.tag == "WhitePlayer" || hit.gameObject.tag == "BlackPlayer" )
 		{			
 			//Now with object pooling!
 			if(NextPlatPointer != null)
 			{
 				NextPlatPointer.transform.position = NextPlatPointer.transform.position + AdjustmentVector;
 			}
-			////Where the next point should be spawned.
-			//Vector3 vector = new Vector3(this.transform.position.x + 26,0,0);
-			////spawn next platform.
-			//Instantiate(Path, vector, this.transform.rotation);
 		}
 	}
 }

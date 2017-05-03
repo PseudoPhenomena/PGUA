@@ -59,14 +59,31 @@ public class WorldEventHandler : MonoBehaviour {
         {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Mr Bones");
         }
-
-        // more if else's here to do a specific level
-
+        // this should just cycle them through some more levels
+        else if (DataManager.data.Dere == 0)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Dere");
+        }
+        else if (DataManager.data.Jean == 0)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Jean");
+        }
+        else if (DataManager.data.MrBones == 1)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Mr Bones");
+        }
+        else if (DataManager.data.Dere == 1)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Dere");
+        }
+        else if (DataManager.data.Jean == 1)
+        {
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Jean");
+        }
         // default level
         else
         {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
         }
-
     }
 }

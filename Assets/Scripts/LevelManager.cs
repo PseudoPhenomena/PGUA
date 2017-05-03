@@ -13,6 +13,11 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
 	public Conductor conductor;
+    /// <summary>
+    /// Reference to the parent of all the different faces
+    /// on the ui; "CuteFacePanel"
+    /// </summary>
+    public GameObject UIFaces;
 	public GameObject toFollow1;
 	public GameObject ObjWithAudio;
     public GameObject BeatList;
@@ -49,8 +54,7 @@ public class LevelManager : MonoBehaviour {
 	private bool end;//is the level over?
 
 	// Use this for initialization
-	void Start() {
-        /// dynamic loading stuff
+	void Start() {        
         // this should get you the npc's name
         string key = SceneLoadSettings.CurrentSettings.npcName;
         // this should add their progress with that character to the key
@@ -60,7 +64,11 @@ public class LevelManager : MonoBehaviour {
         //string songName = levelMap[key];
         //GameObject song = BeatList.transform.Find(songName).gameObject;
 
+        // turn off scoreboard
         Scoreboard.SetActive(false);
+
+        // put up the right face
+        ChangeFacePanel();
 
         //audio = song.GetComponent<AudioSource>(); 
 		audio = ObjWithAudio.GetComponent<AudioSource>();
@@ -77,9 +85,32 @@ public class LevelManager : MonoBehaviour {
 		beat = 0;
 		end = false;
 	}
-	   
-	//Update is called once per frame
-	void Update()
+
+    private void ChangeFacePanel()
+    {
+        string name = SceneLoadSettings.CurrentSettings.npcName;
+        GameObject face = null;
+        // try to find a face to match the name of the npc
+        if (name.Length >= 1)
+        {
+            face = UIFaces.transform.Find(SceneLoadSettings.CurrentSettings.npcName).gameObject;
+        }
+
+        GameObject defaultFace = UIFaces.transform.Find("Default").gameObject;
+
+        // if none is found
+        if (face == null)
+        {
+            // go with our default image from before
+            face = defaultFace;
+        }
+
+        //defaultFace.SetActive(false);
+        face.SetActive(true);
+    }
+
+    //Update is called once per frame
+    void Update()
 	{
 		if(conductor.songPosition > lastBeat + crotchet)
 		{
@@ -88,7 +119,7 @@ public class LevelManager : MonoBehaviour {
 			beat++;
 			lastBeat += crotchet;
 
-			//beatMap.Add(toFollow1.transform.position.x + ";" + beat);
+			beatMap.Add(toFollow1.transform.position.x + ";" + beat);
 		}
 	}
 
