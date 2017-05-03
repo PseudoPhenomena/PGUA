@@ -26,8 +26,14 @@ public class LevelManager : MonoBehaviour {
     private Dictionary<string, string> levelMap = new Dictionary<string, string>()
     {
         // first level with mrbones is the tutorial
-        {"MrBones 0", "tutorial song name here" },
+        {"Mr Bones 0", "tutorial song name here" },
         {"Jean 0", "first jean song name here" },
+        {"Emo 0", "" },
+        {"Dere 0", "" },
+        {"Mr Bones 1", "" },
+        {"Jean 1", "" },
+        {"Emo 1", "" },
+        {"Dere 1", "" },
         // please fill these out, i don't know the names of the songs or i would =(
     };
 	//Reference to the leaderboard UI object.
@@ -55,29 +61,44 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start() {        
-        // this should get you the npc's name
-        string key = SceneLoadSettings.CurrentSettings.npcName;
-        // this should add their progress with that character to the key
-        key += " " + DataManager.data.GetProgress(key);
-
-        // this should fetch a gameobject with the right song on it
-        //string songName = levelMap[key];
-        //GameObject song = BeatList.transform.Find(songName).gameObject;
-
         // turn off scoreboard
         Scoreboard.SetActive(false);
 
         // put up the right face
         ChangeFacePanel();
 
-        //audio = song.GetComponent<AudioSource>(); 
-		audio = ObjWithAudio.GetComponent<AudioSource>();
-		beatMap = new ArrayList();
+        // this should get you the npc's name
+        string key = SceneLoadSettings.CurrentSettings.npcName;
+        // this should add their progress with that character to the key 
+        //(if name doesn't have stored data, returns "0")
+        key += " " + DataManager.data.GetProgress(key);
 
-        // this should probably make use of songName to get the file path
-		fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
-		bpm = conductor.bpm;
-		Debug.Log("Filepath: " + fileName);
+        // if this key has a song attached to it
+        if (levelMap.ContainsKey(key))
+        {
+            // this should fetch a gameobject with the right song on it
+            string songName = levelMap[key];
+            GameObject song = BeatList.transform.Find(songName).gameObject;
+
+            audio = song.GetComponent<AudioSource>(); 
+            beatMap = new ArrayList();
+
+            if (audio != null)
+            {
+                // this should probably make use of songName to get the file path
+                fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
+                bpm = conductor.bpm;
+                Debug.Log("Dynamic Filepath: " + fileName);
+            }
+            else
+            {
+                DefaultLevelSetup();
+            }
+        }
+        else
+        {
+            DefaultLevelSetup();
+        }
 			   
 		//Stuff for writing to the beatmap
 		lastBeat = 0;
@@ -85,6 +106,18 @@ public class LevelManager : MonoBehaviour {
 		beat = 0;
 		end = false;
 	}
+
+    private void DefaultLevelSetup()
+    {
+        //audio = song.GetComponent<AudioSource>(); 
+        audio = ObjWithAudio.GetComponent<AudioSource>();
+        beatMap = new ArrayList();
+
+        // this should probably make use of songName to get the file path
+        fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
+        bpm = conductor.bpm;
+        Debug.Log("Static Filepath: " + fileName);
+    }
 
     private void ChangeFacePanel()
     {
