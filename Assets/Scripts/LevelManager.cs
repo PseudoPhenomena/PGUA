@@ -70,10 +70,11 @@ public class LevelManager : MonoBehaviour {
 		// this should add their progress with that character to the key 
 		//(if name doesn't have stored data, returns "0")
 		key += " " + DataManager.data.GetProgress(key);
-
+        Debug.Log(key + " key");
 		// if this key has a song attached to it
 		if (levelMap.ContainsKey(key))
 		{
+            Debug.Log("contains key");
 			// this should fetch a gameobject with the right song on it
 			string songName = levelMap[key];
 			GameObject song = BeatList.transform.Find(songName).gameObject;
@@ -83,7 +84,7 @@ public class LevelManager : MonoBehaviour {
 
 			if (audio != null)
 			{
-				// this should probably make use of songName to get the file path
+                // this should probably make use of songName to get the file path
 				fileName = Application.dataPath + "/Resources/Music/" + audio.clip.name + "(" + playerSpeed + ")" + "beatmap.txt";
 				bpm = conductor.bpm;
 				Debug.Log("Dynamic Filepath: " + fileName);
@@ -97,7 +98,9 @@ public class LevelManager : MonoBehaviour {
 		{
 			DefaultLevelSetup();
 		}
-			   
+
+        audio.Play();
+
 		//Stuff for writing to the beatmap
 		lastBeat = 0;
 		crotchet = 60 / bpm;
@@ -160,7 +163,7 @@ public class LevelManager : MonoBehaviour {
 		{
 			//Code to to file
 			//This block writes the beatmap that is used in the level editor
-			if (!File.Exists(fileName))
+			if (fileName != null && !File.Exists(fileName))
 			{
 				using (StreamWriter sw = new StreamWriter(fileName))
 				{
