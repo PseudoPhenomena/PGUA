@@ -16,6 +16,8 @@ public class PathSpawnCollider : MonoBehaviour {
     //Adjustment amount is just 3x the lenght of the platform
     public int AdjustmentX = 0;
 	private Vector3 AdjustmentVector = new Vector3(0, 0, 0);
+    public bool ready = true;
+    private readonly object locker = new object();
 
 
 	// Use this for initialization
@@ -30,13 +32,19 @@ public class PathSpawnCollider : MonoBehaviour {
 
 	void OnTriggerEnter(Collider hit)
 	{
-		if (hit.gameObject.tag == "WhitePlayer" || hit.gameObject.tag == "BlackPlayer" )
-		{			
-			//Now with object pooling!
-			if(NextPlatPointer != null)
-			{
-				NextPlatPointer.transform.position = NextPlatPointer.transform.position + AdjustmentVector;
-			}
-		}
+        Debug.Log("jumping");
+        lock (locker)
+        {
+            if ((hit.gameObject.tag == "WhitePlayer" || hit.gameObject.tag == "BlackPlayer") && ready)
+            {
+                ready = false;
+                //Now with object pooling!
+                if (NextPlatPointer != null)
+                {
+                    NextPlatPointer.transform.position = NextPlatPointer.transform.position + AdjustmentVector;
+                }
+                NextPlatPointer.GetComponentInChildren<PathSpawnCollider>().ready = true;
+            }
+        }
 	}
 }
