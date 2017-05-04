@@ -32,7 +32,6 @@ public class PathSpawnCollider : MonoBehaviour {
 
 	void OnTriggerEnter(Collider hit)
 	{
-        Debug.Log("jumping");
         lock (locker)
         {
             if ((hit.gameObject.tag == "WhitePlayer" || hit.gameObject.tag == "BlackPlayer") && ready)
