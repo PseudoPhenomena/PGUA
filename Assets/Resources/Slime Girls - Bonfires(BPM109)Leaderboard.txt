@@ -1,10 +1,10 @@
+32700;JJ
 30000;Hayden
 23200;Jesus
 20000;Hayden
+11000;Austen the BOSSTON
 10000;Hayden
+9800;Homie
+8100;Austen the BOSSTON
 5000;Hayden
 3000;Hayden
-2000;Hayden
-1200;
-1200;
-1000;Hayden

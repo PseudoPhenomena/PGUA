@@ -9,26 +9,26 @@ public class DialogueParser : MonoBehaviour {
 	List<DialogueLine> lines;
 	List<DialogueLine> interruptions;
 
-    //Bones Scripts
-    private string[] MrBonesScripts =
-    {
-        "TutorialConvo",
-        "MrBonesFinal"
-    };
-    //Dere's scripts
-    private string[] DeresScripts =
-    {
-        "DereConvo1",
-        "DereConvo2"
-    };
-    //Jean's scripts
-    private string[] JeansScripts =
-    {
-        "JeanConvo1",
-        "JeanConvo2"
-    };
+	//Bones Scripts
+	private string[] MrBonesScripts =
+	{
+		"TutorialConvo",
+		"MrBonesFinal"
+	};
+	//Dere's scripts
+	private string[] DeresScripts =
+	{
+		"DereConvo1",
+		"DereConvo2"
+	};
+	//Jean's scripts
+	private string[] JeansScripts =
+	{
+		"JeanConvo1",
+		"JeanConvo2"
+	};
 
-    public string file;
+	public string file;
 	/// <summary>
 	/// Here is a struct that defines the characteristics of a line of dialogue.
 	/// I'd like to give credit up front to the Indiana Universitie's Game Developers
@@ -62,19 +62,20 @@ public class DialogueParser : MonoBehaviour {
 		///choose too.
 		///For now though the format for a .txt file will do.
 		
-        //setting up the file to load
-        if(SceneLoadSettings.LoadSettings.npcName.Equals("Mr Bones"))
-        {
-            file = MrBonesScripts[DataManager.data.MrBones];
-        }
-        else if (SceneLoadSettings.LoadSettings.npcName.Equals("Dere"))
-        {
-            file = DeresScripts[DataManager.data.Dere];
-        }
-        else if (SceneLoadSettings.LoadSettings.npcName.Equals("Jean"))
-        {
-            file = JeansScripts[DataManager.data.Dere];
-        }
+		//setting up the file to load
+		if(SceneLoadSettings.LoadSettings.npcName.Equals("Mr Bones"))
+		{
+			file = MrBonesScripts[DataManager.data.MrBones];
+		}
+		else if (SceneLoadSettings.LoadSettings.npcName.Equals("Dere"))
+		{
+			file = DeresScripts[DataManager.data.Dere];
+		}
+		else if (SceneLoadSettings.LoadSettings.npcName.Equals("Jean"))
+		{
+            Debug.Log(DataManager.data.Jean);
+			file = JeansScripts[DataManager.data.Jean];
+		}
 
 		file += ".txt";
 
