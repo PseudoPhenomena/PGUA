@@ -22,7 +22,6 @@ public class WorldEventHandler : MonoBehaviour {
 		//This will eventually check where the player is
 		if (Input.GetButtonDown("Submit"))
 		{
-			Debug.Log("Loading Scene");
             if (sHandler == null)
             {
                 Debug.Log("No given scene handler, using default");

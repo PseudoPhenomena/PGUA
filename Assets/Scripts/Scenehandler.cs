@@ -43,7 +43,6 @@ public class Scenehandler : MonoBehaviour
 
     public void AdvanceScene()
     {
-        Debug.Log(SceneLoadSettings.LoadSettings.location);
         SceneManager.LoadScene(SceneLoadSettings.LoadSettings.location);
     }
 }

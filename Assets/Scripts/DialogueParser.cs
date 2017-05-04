@@ -87,6 +87,7 @@ public class DialogueParser : MonoBehaviour {
 
 	private void LoadDialogue(string filename)
 	{
+        Debug.Log(filename);
 		string line;
 		TextAsset script = Resources.Load(filename) as TextAsset;
 		StreamReader r = new StreamReader(Application.dataPath + "/Resources/"+filename);

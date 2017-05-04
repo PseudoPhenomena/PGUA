@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour {
 		{"Mr Bones 0", "Slime Girls - Bonfires(BPM109)" },
 		{"Jean 0", "Ride on Shooting Star(137bpm)" },
 		{"Dere 0", "Prom Night(124bpm)" },
-		{"Mr Bones 1", "Chase(BPM225)" },
+		{"Mr Bones 1", "01.-chase(225bpm)" },
 		{"Jean 1", "battlecry-nujabes(100bpm)" },
 		{"Dere 1", "omniboi - Nice Dream - 06 Jollipop(128BPM)" },
 	};
@@ -70,14 +70,13 @@ public class LevelManager : MonoBehaviour {
 		// this should add their progress with that character to the key 
 		//(if name doesn't have stored data, returns "0")
 		key += " " + DataManager.data.GetProgress(key);
-		// if this key has a song attached to it
-		if (levelMap.ContainsKey(key))
+        // if this key has a song attached to it
+        if (levelMap.ContainsKey(key))
 		{
-			// this should fetch a gameobject with the right song on it
-			string songName = levelMap[key];
+            // this should fetch a gameobject with the right song on it
+            string songName = levelMap[key];
 			GameObject song = BeatList.transform.Find(songName).gameObject;
-
-			audio = song.GetComponent<AudioSource>(); 
+            audio = song.GetComponent<AudioSource>(); 
 			beatMap = new ArrayList();
 
 			if (audio != null)
@@ -97,7 +96,7 @@ public class LevelManager : MonoBehaviour {
 			DefaultLevelSetup();
 		}
 
-        if (audio.clip.name == "Chase(BPM225)")
+        if (audio.clip.name == "01.-chase(225bpm)")
         {
             CharMovement.speed = 15;
         }
@@ -190,27 +189,6 @@ public class LevelManager : MonoBehaviour {
 			if (sk.score > highscore)
 				DataManager.data.TopScore = sk.score;
 
-			string character = SceneLoadSettings.CurrentSettings.npcName;
-			if (character != null) 
-			{
-				if (character == "Emo") 
-				{
-					DataManager.data.Emo++;
-				}
-				else if (character == "Mr Bones") 
-				{
-					DataManager.data.MrBones++;
-				}
-				else if (character == "Dere") 
-				{
-					DataManager.data.Dere++;
-				}
-				else if (character == "Jean") 
-				{
-					DataManager.data.Jean++;
-				}
-			}
-
 			if (!Scoreboard.activeInHierarchy && !end)
 			{
 				Scoreboard.SetActive(true);
@@ -227,5 +205,29 @@ public class LevelManager : MonoBehaviour {
 		}
 	}
 
-	
+    private void OnDestroy()
+    {
+        string character = SceneLoadSettings.CurrentSettings.npcName;
+        if (character != null)
+        {
+            if (character == "Emo")
+            {
+                DataManager.data.Emo++;
+            }
+            else if (character == "Mr Bones")
+            {
+                DataManager.data.MrBones++;
+            }
+            else if (character == "Dere")
+            {
+                DataManager.data.Dere++;
+            }
+            else if (character == "Jean")
+            {
+                DataManager.data.Jean++;
+            }
+        }
+    }
+
+
 }

@@ -21,7 +21,7 @@ public class DataManager : MonoBehaviour {
             { return Jean.ToString(); }
             else if (name == "Emo")
             { return Emo.ToString(); }
-            else if (name == "MrBones")
+            else if (name == "Mr Bones")
             { return MrBones.ToString(); }
             else if (name == "Dere")
             { return Dere.ToString(); }
