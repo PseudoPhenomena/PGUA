@@ -13,6 +13,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
 	public Conductor conductor;
+    public CharacterMovement CharMovement;
 	/// <summary>
 	/// Reference to the parent of all the different faces
 	/// on the ui; "CuteFacePanel"
@@ -32,7 +33,6 @@ public class LevelManager : MonoBehaviour {
 		{"Mr Bones 1", "Chase(BPM225)" },
 		{"Jean 1", "battlecry-nujabes(100bpm)" },
 		{"Emo 1", "omniboi - Nice Dream - 06 Jollipop(128BPM)" },
-		// please fill these out, i don't know the names of the songs or i would =(
 	};
 	//Reference to the leaderboard UI object.
 	public GameObject Scoreboard;
@@ -98,6 +98,15 @@ public class LevelManager : MonoBehaviour {
 		{
 			DefaultLevelSetup();
 		}
+
+        if (audio.clip.name == "Chase(BPM225)")
+        {
+            CharMovement.speed = 15;
+        }
+        else if (audio.clip.name == "Prom Night(124bpm)")
+        {
+            CharMovement.speed = 6;
+        }
 
         audio.Play();
 
@@ -184,14 +193,16 @@ public class LevelManager : MonoBehaviour {
 				DataManager.data.TopScore = sk.score;
 
 			string character = SceneLoadSettings.CurrentSettings.npcName;
+            Debug.Log(character);
 			if (character != null) 
 			{
 				if (character == "Emo") 
 				{
 					DataManager.data.Emo++;
 				}
-				else if (character == "MrBones") 
+				else if (character == "Mr Bones") 
 				{
+                    Debug.Log("wow...");
 					DataManager.data.MrBones++;
 				}
 				else if (character == "Dere") 
