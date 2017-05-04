@@ -29,10 +29,10 @@ public class LevelManager : MonoBehaviour {
 		// first level with mrbones is the tutorial
 		{"Mr Bones 0", "Slime Girls - Bonfires(BPM109)" },
 		{"Jean 0", "Ride on Shooting Star(137bpm)" },
-		{"Emo 0", "Prom Night(124bpm)" },
+		{"Dere 0", "Prom Night(124bpm)" },
 		{"Mr Bones 1", "Chase(BPM225)" },
 		{"Jean 1", "battlecry-nujabes(100bpm)" },
-		{"Emo 1", "omniboi - Nice Dream - 06 Jollipop(128BPM)" },
+		{"Dere 1", "omniboi - Nice Dream - 06 Jollipop(128BPM)" },
 	};
 	//Reference to the leaderboard UI object.
 	public GameObject Scoreboard;
@@ -70,11 +70,9 @@ public class LevelManager : MonoBehaviour {
 		// this should add their progress with that character to the key 
 		//(if name doesn't have stored data, returns "0")
 		key += " " + DataManager.data.GetProgress(key);
-        Debug.Log(key + " key");
 		// if this key has a song attached to it
 		if (levelMap.ContainsKey(key))
 		{
-            Debug.Log("contains key");
 			// this should fetch a gameobject with the right song on it
 			string songName = levelMap[key];
 			GameObject song = BeatList.transform.Find(songName).gameObject;
@@ -193,7 +191,6 @@ public class LevelManager : MonoBehaviour {
 				DataManager.data.TopScore = sk.score;
 
 			string character = SceneLoadSettings.CurrentSettings.npcName;
-            Debug.Log(character);
 			if (character != null) 
 			{
 				if (character == "Emo") 
@@ -202,7 +199,6 @@ public class LevelManager : MonoBehaviour {
 				}
 				else if (character == "Mr Bones") 
 				{
-                    Debug.Log("wow...");
 					DataManager.data.MrBones++;
 				}
 				else if (character == "Dere") 

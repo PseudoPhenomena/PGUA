@@ -60,9 +60,9 @@ public class WorldEventHandler : MonoBehaviour {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Mr Bones");
         }
         // this should just cycle them through some more levels
-        else if (DataManager.data.Emo == 0)
+        else if (DataManager.data.Dere == 0)
         {
-            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Emo");
+            SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Dere");
         }
         else if (DataManager.data.Jean == 0)
         {
@@ -72,7 +72,7 @@ public class WorldEventHandler : MonoBehaviour {
         {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Mr Bones");
         }
-        else if (DataManager.data.Emo == 1)
+        else if (DataManager.data.Dere == 1)
         {
             SceneLoadSettings.LoadSettings = new SceneLoadSettings.Settings("Conversation", false, "Dere");
         }
